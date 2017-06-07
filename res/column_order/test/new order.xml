@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column_order>
+    <columnOrder>ORDER_NUMBER</columnOrder>
+    <columnOrder>DOC_NUMBER</columnOrder>
+    <columnOrder>SEND_STATION_NAME</columnOrder>
+    <columnOrder>SEND_STATION_CODE</columnOrder>
+    <columnOrder>SEND_STATION_NAME_CODE</columnOrder>
+    <columnOrder>RECEIVE_STATION_CODE</columnOrder>
+    <columnOrder>RECEIVE_STATION_NAME_CODE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>VAGON_CARRYING_CAPASITY</columnOrder>
+    <columnOrder>VAGON_TARE_WEIGTH</columnOrder>
+    <columnOrder>VAGON_NET_WEIGHT</columnOrder>
+    <order>ORDER_NUMBER</order>
+    <order>DOC_NUMBER</order>
+    <order>SEND_STATION_NAME</order>
+    <order>SEND_STATION_CODE</order>
+    <order>SEND_STATION_NAME_CODE</order>
+    <order>RECEIVE_STATION_CODE</order>
+    <order>RECEIVE_STATION_NAME_CODE</order>
+    <order>VOID_SPACE</order>
+    <order>VOID_SPACE</order>
+    <order>VAGON_CARRYING_CAPASITY</order>
+    <order>VAGON_TARE_WEIGTH</order>
+    <order>VAGON_NET_WEIGHT</order>
+</column_order>

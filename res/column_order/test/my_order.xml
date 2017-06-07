@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column_order>
+    <columnOrder>SENDER_NAME</columnOrder>
+    <columnOrder>SEND_STATION_NAME</columnOrder>
+    <columnOrder>DOC_DATE</columnOrder>
+    <columnOrder>DOC_NUMBER</columnOrder>
+    <columnOrder>VAGON_NUMBER</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>RECEIVE_STATION_NAME</columnOrder>
+    <columnOrder>RECEIVER_RAILROAD_CODE</columnOrder>
+    <columnOrder>RECEIVER_NAME</columnOrder>
+    <columnOrder>CARGO_NAME</columnOrder>
+    <columnOrder>VAGON_TARE_WEIGTH</columnOrder>
+    <columnOrder>VAGON_NET_WEIGHT</columnOrder>
+    <order>SENDER_NAME</order>
+    <order>SEND_STATION_NAME</order>
+    <order>DOC_DATE</order>
+    <order>DOC_NUMBER</order>
+    <order>VAGON_NUMBER</order>
+    <order>VOID_SPACE</order>
+    <order>RECEIVE_STATION_NAME</order>
+    <order>RECEIVER_RAILROAD_CODE</order>
+    <order>RECEIVER_NAME</order>
+    <order>CARGO_NAME</order>
+    <order>VAGON_TARE_WEIGTH</order>
+    <order>VAGON_NET_WEIGHT</order>
+</column_order>

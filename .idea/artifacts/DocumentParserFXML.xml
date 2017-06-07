@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="DocumentParserFXML">
+    <output-path>$PROJECT_DIR$/../../../../РАЗРАБОТКА/CompletedApps/DocParserFXML</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.yurets_y.document_parser.MainApp" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="DocumentParserFXML.jar">
+        <element id="module-output" name="DocumentParserFXML" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../../../java_lib/jsoup/jsoup-1.9.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/../../../java_lib/appache_poi/poi-3.14/poi-3.14-20160307.jar" path-in-jar="/" />
+      </element>
+      <element id="directory" name="res">
+        <element id="dir-copy" path="$PROJECT_DIR$/res" />
+      </element>
+    </root>
+  </artifact>
+</component>

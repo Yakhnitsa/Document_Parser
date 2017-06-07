@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz-rwc-doc xmlns="uz:rwc:document:1.8">
+    <document-data>
+        <uz-rwc-doc>
+            <document-data>
+                <OTPR country_nazn="804" country_otpr="804" date_plan="30.05.2017" doc_lang="de" kod_doc="90" loader="2"
+                      metod="58" pr_locom="0" rab_esr="10" speed="2" vid="6" xmlns="uz:rwc:document:project:1.8">
+                    <CLIENT account="26000013067502" adress="м. Київ вул. Іринінська, буд. 5/24, оф. 89"
+                            bank="ПАТ &quot;Альфа-Банк&quot;" city="м. Київ" kod="2138" mfo="300346"
+                            name="ТОВ &quot;УКРТРАНСЛОГИСТИКА 2&quot;" okpo="38844756" type="1"/>
+                    <CLIENT adress="54002 Україна, м. Миколаїв, вул. Велика Морська, 63" kod="1430"
+                            name="ТОВ СП &quot;НІБУЛОН&quot;" okpo="14291113" type="2"/>
+                    <PL kod_plat="3001475" name_plat="ТОВ &quot;УКРТРАНСЛОГИСТИКА 2&quot;" type="0"/>
+                    <ROUTE index="0" name_from="Кабанье" name_to="Николаев-Грузовой" rw_from="22" rw_to="22"
+                           stn_from="498905" stn_to="415207" zd_nazn="22" zd_otpr="22"/>
+                    <SHTEMPEL info_sht="Власний вагон. Власник ООО &quot;РТК-УКРАИНА&quot;" nom_sht="611"/>
+                    <SHTEMPEL info_sht="Насыпью" nom_sht="705"/>
+                    <SHTEMPEL info_sht="Загальна кількість вагонів -  4. Дивись відомість." nom_sht="708"/>
+                    <SHTEMPEL info_sht="На вагонных весах (150 т)" nom_sht="718"/>
+                    <TEXT branch="П/К" create_place="Кабанье"
+                          name_gr="Відповідальний за відвантаження Александр Прокопюк"
+                          zayava="ТОВ « АГРОПРОМХІМ » код ЄДРПОУ 33513430  за договором поставки №698  / 2016 від« 02 » вересня 2016 р.  з ТОВ СП «НІБУЛОН». Одержувач на ПТ: ТОВ СП «НІБУЛОН»"/>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58513425" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="23000">
+                        <COLLECT_V kod_etsng="014003" name_etsng="Ячмень" pac="VR"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344956" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344959" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344960" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344965" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344961" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344962" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344963" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58529249" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21300">
+                        <COLLECT_V kod_etsng="014003" name_etsng="Ячмень" pac="VR"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344969" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344967" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344958" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344970" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344966" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344968" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344964" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="20" kol_os="4" nomer="58534710" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="23000">
+                        <COLLECT_V kod_etsng="014003" name_etsng="Ячмень" pac="VR"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344952" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344954" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344953" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344955" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344975" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344951" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344973" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58531203" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="23000">
+                        <COLLECT_V kod_etsng="014003" name_etsng="Ячмень" pac="VR"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344936" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344921" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344938" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344957" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344929" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344928" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="498905" nom_zpu="Т344927" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                </OTPR>
+            </document-data>
+            <signature>
+                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
+            </signature>
+        </uz-rwc-doc>
+        <changes xmlns="uz:rwc:document:accepted:1.8">
+            <delete target="OTPR">
+                <OTPR pr_locom="0"/>
+            </delete>
+            <update target="OTPR">
+                <OTPR date_otpr="30.05.2017 16:29:00" distance_way="798" nom_doc="50233253" nom_plan="373322"
+                      osum="4676400" srok_end="05.06.2017 00:00:00" type_pay="0"/>
+            </update>
+            <update target="OTPR/CLIENT[1]">
+                <CLIENT representative_pib="Ільченко О.В."/>
+            </update>
+            <insert target="OTPR/PL[1]/PAY[1]">
+                <PAY currency="980" kod="001" pr_avt="1" summa="4676400"/>
+            </insert>
+            <delete target="OTPR/ROUTE[1]">
+                <ROUTE zd_nazn="22" zd_otpr="22"/>
+            </delete>
+            <insert target="OTPR/SCHEMA[1]">
+                <SCHEMA carry_sch="2" pr_sch="2"/>
+            </insert>
+            <insert target="OTPR/SENDER_DOC[1]">
+                <SENDER_DOC
+                        description="Декларація про поміщення в режим тимчасового ввезення, № 347-359, вiд 05.10.2016"
+                        doc_date="05.10.2016" doc_num="347-359" doc_type="610"
+                        doc_type_name="Декларація про поміщення в режим тимчасового ввезення" id="3144250"/>
+            </insert>
+            <insert target="OTPR/TAKS[1]">
+                <TAKS coeff_mode="2" coeff_value="1.8420"/>
+            </insert>
+            <delete target="OTPR/TEXT[1]">
+                <TEXT create_place="Кабанье"/>
+            </delete>
+            <update target="OTPR/TEXT[1]">
+                <TEXT name_tov="Яіцька Г.В."/>
+            </update>
+            <update target="OTPR/VAGON[1]">
+                <VAGON calc_weight="65000" u_tara="21500"/>
+            </update>
+            <update target="OTPR/VAGON[1]/COLLECT_V[1]">
+                <COLLECT_V vesg="66950"/>
+            </update>
+            <insert target="OTPR/VAGON[1]/PAY_V[1]">
+                <PAY_V kod="001" summa="1169100"/>
+            </insert>
+            <delete target="OTPR/VAGON[1]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[2]">
+                <VAGON calc_weight="65000" u_tara="21400"/>
+            </update>
+            <update target="OTPR/VAGON[2]/COLLECT_V[1]">
+                <COLLECT_V vesg="66900"/>
+            </update>
+            <insert target="OTPR/VAGON[2]/PAY_V[1]">
+                <PAY_V kod="001" summa="1169100"/>
+            </insert>
+            <delete target="OTPR/VAGON[2]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]">
+                <VAGON calc_weight="65000" u_tara="21250"/>
+            </update>
+            <update target="OTPR/VAGON[3]/COLLECT_V[1]">
+                <COLLECT_V vesg="67000"/>
+            </update>
+            <insert target="OTPR/VAGON[3]/PAY_V[1]">
+                <PAY_V kod="001" summa="1169100"/>
+            </insert>
+            <delete target="OTPR/VAGON[3]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Т344955"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Т344975"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Т344951"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Т344973"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Т344952"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Т344954"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Т344953"/>
+            </update>
+            <update target="OTPR/VAGON[4]">
+                <VAGON calc_weight="65000" u_tara="21000"/>
+            </update>
+            <update target="OTPR/VAGON[4]/COLLECT_V[1]">
+                <COLLECT_V vesg="67100"/>
+            </update>
+            <insert target="OTPR/VAGON[4]/PAY_V[1]">
+                <PAY_V kod="001" summa="1169100"/>
+            </insert>
+            <delete target="OTPR/VAGON[4]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[4]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+        </changes>
+    </document-data>
+    <signature>
+        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
+    </signature>
+</uz-rwc-doc>
