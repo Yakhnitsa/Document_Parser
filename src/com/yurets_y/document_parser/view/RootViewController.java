@@ -152,6 +152,10 @@ public class RootViewController {
         this.columnOrder = OrderManagerOverviewController.getNewOrder(this);
     }
 
+    public void testDocumentList(){
+
+    }
+
     @FXML
     public void loadColumnOrder() {
         File defaultFile = PropertiesManager.getInstance().getDefaultColumnOrderFile();
