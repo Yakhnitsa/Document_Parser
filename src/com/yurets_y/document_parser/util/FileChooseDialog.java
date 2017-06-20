@@ -33,6 +33,11 @@ public class FileChooseDialog {
         return getFileToSaveFX(primaryStage, defaultFile, "*.xml", "xml file");
     }
 
+    public static File getExcelFileToLoad(Stage primaryStage){
+        File defFile = PropertiesManager.getInstance().getDefaultAddFolder();
+        return getFileToLoadFX(primaryStage, defFile, "*.xls", "xls excel files");
+    }
+
     public static File getXMLFileToLoad(Stage primaryStage, File defaultFile) {
         return getFileToLoadFX(primaryStage, defaultFile, "*.xml", "xml file");
     }

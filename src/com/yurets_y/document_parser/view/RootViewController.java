@@ -153,6 +153,7 @@ public class RootViewController {
     }
 
     public void testDocumentList(){
+        File testFile = FileChooseDialog.getExcelFileToLoad(primaryStage);
 
     }
 
