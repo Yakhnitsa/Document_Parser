@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="javafx" name="DocumentParserFXML">
-    <output-path>$PROJECT_DIR$/../../../../РАЗРАБОТКА/CompletedApps/DocParserFXML</output-path>
+    <output-path>$PROJECT_DIR$/../../../../РАЗРАБОТКА/CompletedApps/DocParserFXML/artifact</output-path>
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="com.yurets_y.document_parser.MainApp" />

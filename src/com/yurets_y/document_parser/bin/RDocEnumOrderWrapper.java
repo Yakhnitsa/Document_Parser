@@ -8,7 +8,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement(name = "column_order")
 public class RDocEnumOrderWrapper {
-    @XmlElement
     private RDocEnum[] columnOrder;
 
     public RDocEnum[] getOrder() {

@@ -25,6 +25,10 @@ public class DocumentInfoOverviewController {
     @FXML
     private Label payerLabel;
     @FXML
+    private Label outStationLabel;
+    @FXML
+    private Label innStationLabel;
+    @FXML
     private Label cargoNameLabel;
     @FXML
     private Label cargoWeightLabel;
@@ -43,6 +47,8 @@ public class DocumentInfoOverviewController {
         senderLabel.setText(document.getCargoSender().getName());
         receiverbLabel.setText(document.getCargoReceiver().getName());
         payerLabel.setText(document.getTarifPayer().getName());
+        outStationLabel.setText(document.getOutStation().getNameAndCode());
+        innStationLabel.setText(document.getInnStation().getNameAndCode());
         cargoNameLabel.setText(document.getCargoName());
         cargoWeightLabel.setText(Integer.toString(document.getFullVeight()));
         vagonCountLabel.setText(Integer.toString(document.getVagonCount()));

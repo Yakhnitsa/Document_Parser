@@ -18,12 +18,11 @@ public class RailroadDocument {
     private Station sendStation;
     private Station receiveStation;
 
-    private Station outStation;
-    private Station innStation;
-
     private Participant cargoSender;
     private Participant cargoReceiver;
     private Participant tarifPayer;
+
+    private List<Carrier> carriers = new ArrayList<>();
 
     private String cargoName;
     private String cargoCode;
@@ -135,19 +134,11 @@ public class RailroadDocument {
     }
 
     public Station getOutStation() {
-        return outStation;
-    }
-
-    public void setOutStation(Station outStation) {
-        this.outStation = outStation;
+        return carriers.size() > 0 ? carriers.get(0).getTo() : new Station();
     }
 
     public Station getInnStation() {
-        return innStation;
-    }
-
-    public void setInnStation(Station innStation) {
-        this.innStation = innStation;
+        return carriers.size() > 1 ? carriers.get(1).getFrom(): new Station();
     }
 
     /*
@@ -211,6 +202,14 @@ public class RailroadDocument {
         this.column15info = column15info;
     }
 
+    public List<Carrier> getCarriers() {
+        return carriers;
+    }
+
+    public void addCarrier(Carrier carrier){
+        carriers.add(carrier);
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -245,6 +244,8 @@ public class RailroadDocument {
     public int hashCode() {
         return docNumber.hashCode();
     }
+
+
 
     public String getShortRepresentation() {
         return String.format("№ док: %s, %s - %s дата: %4$td_%4$tm_%4$tY %5$d ваг%n", docNumber, sendStation.getName(), receiveStation.getName(), docDate, getVagonCount());
@@ -318,10 +319,17 @@ public class RailroadDocument {
      * Класс для сохранения данных про станцию
      */
     public static class Station {
-        private String name;
-        private String code;
-        private String road;
+        private String name = "";
+        private String code = "";
+        private String road = "";
 
+        public Station(String name, String code) {
+            this.name = name;
+            this.code = code;
+        }
+
+        public Station() {
+        }
         /*
          * getters And Setters
          */
@@ -413,6 +421,24 @@ public class RailroadDocument {
         @Override
         public String toString() {
             return String.format("%s, код: %s, адресс: %s", name, railroadCode, address);
+        }
+    }
+
+    public static class Carrier{
+        private Station from;
+        private Station to;
+
+        public Carrier(Station from, Station to) {
+            this.from = from;
+            this.to = to;
+        }
+
+        public Station getFrom() {
+            return from;
+        }
+
+        public Station getTo() {
+            return to;
         }
     }
 }

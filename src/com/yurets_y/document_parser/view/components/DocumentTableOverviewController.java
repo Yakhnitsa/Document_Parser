@@ -9,12 +9,14 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Pos;
+import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.SelectionMode;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -53,16 +55,18 @@ public class DocumentTableOverviewController {
     @FXML
     private void initialize() {
         // Инициализация таблицы документов
-        docNumberColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getDocNumber()));
+        docNumberColumn.setCellValueFactory(new PropertyValueFactory<>("docNumber"));
         senderNameColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getCargoSender().getName()));
         docDateColumn.setCellValueFactory(cellData -> new SimpleStringProperty(DateUtil.format(cellData.getValue().getDocDate())));
         sendStaticonColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getSendStation().getName()));
         receiveStationColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getReceiveStation().getName()));
         receiverNameColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getCargoReceiver().getName()));
-        cargoNameColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getCargoName()));
+        cargoNameColumn.setCellValueFactory(new PropertyValueFactory<>("cargoCode"));
         vagonCountColumn.setCellValueFactory(cellData -> new SimpleIntegerProperty(cellData.getValue().getVagonCount()).asObject());
-        //Добавление слушателя к определенному пункту меню
+
         documentTable.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        documentTable.setTableMenuButtonVisible(true);
+        documentTable.setPlaceholder(getPlaceHolder());
     }
     @FXML
     public void deleteAll(){
@@ -81,8 +85,6 @@ public class DocumentTableOverviewController {
     @FXML
     public void viewDetails(){
         RailroadDocument selectedDocument = documentTable.getSelectionModel().getSelectedItem();
-        // Загружаем fxml-файл и создаём новую сцену
-        // для всплывающего диалогового окна.
         if(selectedDocument != null){
             try {
                 FXMLLoader loader = new FXMLLoader();
@@ -138,5 +140,31 @@ public class DocumentTableOverviewController {
 
     public void setPrimaryStage(Stage primaryStage) {
         this.primaryStage = primaryStage;
+    }
+
+    private Node getPlaceHolder(){
+        BorderPane basicPane = new BorderPane();
+        basicPane.setPrefSize(300,100);
+        basicPane.setMaxSize(300,100);
+        basicPane.setVisible(true);
+        basicPane.setOpacity(0.8);
+
+        Label label = new Label("Нет документов для отображения");
+        label.setAlignment(Pos.CENTER);
+        label.setTextAlignment(TextAlignment.CENTER);
+        label.setStyle("-fx-font: 11pt System;-fxbackground-color:lightgrey;");
+
+        Button loadDocButton = new Button("Добавить файл");
+        loadDocButton.setOnAction(action -> rootController.addFiles());
+        Button loadFolderButton = new Button("Добавить папку");
+        loadFolderButton.setOnAction(action -> rootController.addFilesFromFolder());
+        ButtonBar buttons = new ButtonBar();
+        buttons.getButtons().addAll(loadDocButton,loadFolderButton);
+
+        basicPane.setCenter(label);
+        basicPane.setBottom(buttons);
+        basicPane.setStyle("-fx-border-width:1pt;-fx-border-color:lightgray");
+
+        return basicPane;
     }
 }

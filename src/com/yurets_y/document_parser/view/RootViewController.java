@@ -11,10 +11,12 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.ButtonType;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
@@ -87,15 +89,20 @@ public class RootViewController {
     @FXML
     public void saveAll() {
         List<RailroadDocument> documents = docController.getDocuments();
-        if(documents.size()< 1){
-            MessageManager.getInstance().showInfoMessage(primaryStage,"Нет данных для сохранения","");
+        if (documents.size() < 1) {
+            MessageManager.getInstance().showInfoMessage(primaryStage, "Нет данных для сохранения", "");
             return;
         }
         File file = FileChooseDialog.getXLSFileToSave(primaryStage);
         if (file != null) {
             int count = saver.saveGroupToFile(documents, file, columnOrder);
-            String message = String.format("успешно сохранено %d документов по пути:%n %s", count, file);
-            MessageManager.getInstance().showSaveMesage(primaryStage, message, "");
+            String message = String.format("Успешно сохранено %d документов, открыть файл экспорта?", count);
+            String title = "Сохранение.";
+            String contentText = String.format("Документы находятся в файле: %n%s", file);
+            ButtonType choice = MessageManager.getInstance().showConfirmMessage(primaryStage,message,title,contentText);
+            if(choice == ButtonType.OK){
+                openFileInDesktop(file);
+            }
         } else {
             String message = "файлы не сохранены";
             String context = "Путь для сохранения документов не выбран";
@@ -106,16 +113,20 @@ public class RootViewController {
     @FXML
     public void saveSelected() {
         List<RailroadDocument> documents = docController.getSelectedDocuments();
-        if(documents.size()< 1){
-            MessageManager.getInstance().showInfoMessage(primaryStage,"Нет данных для сохранения","Документы для сохранения не выбраны");
+        if (documents.size() < 1) {
+            MessageManager.getInstance().showInfoMessage(primaryStage, "Нет данных для сохранения", "Документы для сохранения не выбраны");
             return;
         }
         File file = FileChooseDialog.getXLSFileToSave(primaryStage);
         if (file != null) {
             int count = saver.saveGroupToFile(docController.getSelectedDocuments(), file, columnOrder);
-            String message = String.format("успешно сохранено %d документов", count);
-            String contentText = String.format("Документы находятся в папке: %n%s", file);
-            MessageManager.getInstance().showSaveMesage(primaryStage, message, contentText);
+            String message = String.format("Успешно сохранено %d документов, открыть файл экспорта?", count);
+            String title = "Сохранение.";
+            String contentText = String.format("Документы находятся в файле: %n%s", file);
+            ButtonType choice = MessageManager.getInstance().showConfirmMessage(primaryStage,message,title,contentText);
+            if(choice == ButtonType.OK){
+                openFileInDesktop(file);
+            }
         } else {
             MessageManager.getInstance().showErrorMessage(primaryStage, "Документы не сохранены", "Ошибка сохранения");
         }
@@ -144,54 +155,56 @@ public class RootViewController {
     @FXML
     public void loadColumnOrder() {
         File defaultFile = PropertiesManager.getInstance().getDefaultColumnOrderFile();
-        File file = FileChooseDialog.getXMLFileToLoad(primaryStage,defaultFile);
+        File file = FileChooseDialog.getXMLFileToLoad(primaryStage, defaultFile);
         try {
             RDocEnum[] order = RDocEnumLoader.getInstance().loadOrderFromXML(file);
             String message = "Порядок колонок успешно загружен";
             columnOrder = order;
-            MessageManager.getInstance().showLoadMessage(primaryStage,message,"");
+            MessageManager.getInstance().showLoadMessage(primaryStage, message, "");
         } catch (Exception e) {
-            MessageManager.getInstance().showErrorMessage(primaryStage,"Ошибка загрузки","Файл не выбран или имеет пеподдерживаемый формат");
+            MessageManager.getInstance().showErrorMessage(primaryStage, "Ошибка загрузки", "Файл не выбран или имеет пеподдерживаемый формат");
         }
     }
 
     @FXML
     public void saveColumnOrder() {
         File defaultFile = PropertiesManager.getInstance().getDefaultColumnOrderFile();
-        File file = FileChooseDialog.getXMLFileToSave(primaryStage,defaultFile);
+        File file = FileChooseDialog.getXMLFileToSave(primaryStage, defaultFile);
         try {
-            RDocEnumLoader.getInstance().saveOrderToXML(columnOrder,file);
+            RDocEnumLoader.getInstance().saveOrderToXML(columnOrder, file);
             String message = "Порядок колонок успешно сохранен";
             String context = "Путь для сохранения: \n" + file;
-            MessageManager.getInstance().showLoadMessage(primaryStage,message,context);
+            MessageManager.getInstance().showLoadMessage(primaryStage, message, context);
         } catch (Exception e) {
-            MessageManager.getInstance().showErrorMessage(primaryStage,"Ошибка сохранения","Файл не выбран или имеет пеподдерживаемый формат");
+            MessageManager.getInstance().showErrorMessage(primaryStage, "Ошибка сохранения", "Файл не выбран или имеет пеподдерживаемый формат");
         }
     }
+
     @FXML
-    public void changeDefaultLoadFolder(){
+    public void changeDefaultLoadFolder() {
         File defaultFile = PropertiesManager.getInstance().getDefaultAddFolder();
-        File file = FileChooseDialog.getFolder(primaryStage,defaultFile);
-        if((file != null)&&file.exists()) {
+        File file = FileChooseDialog.getFolder(primaryStage, defaultFile);
+        if ((file != null) && file.exists()) {
             PropertiesManager.getInstance().setDefaultAddFolder(file);
             String message = "Папка импорта успешно изменена";
             String context = "Папка импорта по уполчанию \n" + file;
-            MessageManager.getInstance().showSaveMesage(primaryStage,message,context);
+            MessageManager.getInstance().showSaveMesage(primaryStage, message, context);
         } else {
-            MessageManager.getInstance().showErrorMessage(primaryStage,"Ошибка сохранения","Путь не выбран или не существует");
+            MessageManager.getInstance().showErrorMessage(primaryStage, "Ошибка сохранения", "Путь не выбран или не существует");
         }
     }
+
     @FXML
-    public void changeDefaultSaveFolder(){
+    public void changeDefaultSaveFolder() {
         File defaultFile = PropertiesManager.getInstance().getDefaultSaveFolder();
-        File file = FileChooseDialog.getFolder(primaryStage,defaultFile);
-        if((file != null)&&file.exists()) {
+        File file = FileChooseDialog.getFolder(primaryStage, defaultFile);
+        if ((file != null) && file.exists()) {
             PropertiesManager.getInstance().setDefaultSaveFolder(file);
             String message = "Папка экспорта успешно изменена";
             String context = "Папка экспорта по уполчанию \n" + file;
-            MessageManager.getInstance().showSaveMesage(primaryStage,message,context);
+            MessageManager.getInstance().showSaveMesage(primaryStage, message, context);
         } else {
-            MessageManager.getInstance().showErrorMessage(primaryStage,"Ошибка сохранения","Путь не выбран или не существует");
+            MessageManager.getInstance().showErrorMessage(primaryStage, "Ошибка сохранения", "Путь не выбран или не существует");
         }
     }
 
@@ -209,15 +222,30 @@ public class RootViewController {
                 RailroadDocument doc = parser.parseFromFile(file);
                 documentList.add(doc);
 
-            } catch (ParseException| IOException e) {
+            } catch (ParseException | IOException e) {
                 ExceptionHandler.handleException(e);
             }
         }
     }
 
+    public RDocEnum[] getColumnOrder() {
+        return columnOrder;
+    }
+
+    /**
+     * Закрывает приложение.
+     */
+    @FXML
+    private void handleExit() {
+        System.exit(0);
+    }
+
     private int loadDocument(File file) {
         try {
             RailroadDocument doc = parser.parseFromFile(file);
+            if(documentList.contains(doc)){
+                return 0;
+            }
             documentList.add(doc);
             return 1;
         } catch (ParseException | IOException e) {
@@ -228,15 +256,18 @@ public class RootViewController {
         return 0;
     }
 
-    public RDocEnum[] getColumnOrder() {
-        return columnOrder;
-    }
-    /**
-     * Закрывает приложение.
-     */
-    @FXML
-    private void handleExit() {
-        System.exit(0);
+    private void openFileInDesktop(File file){
+        Desktop desktop = null;
+        if (Desktop.isDesktopSupported()) {
+            desktop = Desktop.getDesktop();
+        }
+        try {
+            assert desktop != null;
+            desktop.open(file);
+        } catch (IOException ioe) {
+            MessageManager.getInstance().showExceptionMessage(ioe,null);
+            ioe.printStackTrace();
+        }
     }
 
 }

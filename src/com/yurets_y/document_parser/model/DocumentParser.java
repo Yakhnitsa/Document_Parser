@@ -19,7 +19,7 @@ import java.util.logging.SimpleFormatter;
 
 
 /**
- * Created by Yuriy on 29.06.2016.
+ * Парсер XML формы документа
  */
 public class DocumentParser implements Parser {
     /*
@@ -53,10 +53,10 @@ public class DocumentParser implements Parser {
     /*
      * Парсинг данных по документу из представления xml документа
      */
-    protected RailroadDocument parseDocument(Document jSoupDocument) throws ParseException {
+    private RailroadDocument parseDocument(Document jSoupDocument) throws ParseException {
         RailroadDocument railDoc = new RailroadDocument();
 
-        railDoc.setDocNumber(jSoupDocument.getElementsByAttribute("nom_doc").attr("nom_doc").toString());
+        railDoc.setDocNumber(jSoupDocument.getElementsByAttribute("nom_doc").attr("nom_doc"));
         railDoc.setDocDate(jSoupDocument.getElementsByAttribute("date_otpr").attr("date_otpr").toString());
         //Добавление учасников трансп процесса:
         RailroadDocument.Participant sender = parseAndAddParticipants(jSoupDocument.getElementsByAttributeValue("type", "1"), railDoc);
@@ -69,6 +69,8 @@ public class DocumentParser implements Parser {
         railDoc.setTarifPayer(tarifPayer);
         //добавление инфо про маршрут:
         parseAndAddStations(jSoupDocument, railDoc);
+        //добавление информации о перевозчике
+        parseAndAddCarriers(jSoupDocument,railDoc);
         //добавление инфо по вагонам:
         parseAndAddVagonsToDoc(jSoupDocument, railDoc);
         //Добавление инфо по грузу:
@@ -97,19 +99,24 @@ public class DocumentParser implements Parser {
         receiveStation.setName(jSoupDoc.getElementsByAttribute("name_to").attr("name_to").toString());
         receiveStation.setCode(jSoupDoc.getElementsByAttribute("stn_to").attr("stn_to").toString());
 
-        RailroadDocument.Station outStation = new RailroadDocument.Station();
-        outStation.setName(jSoupDoc.getElementsByAttribute("esr_name_out").attr("esr_name_out").toString());
-        outStation.setCode(jSoupDoc.getElementsByAttribute("esr_out").attr("esr_out").toString());
-
-        RailroadDocument.Station innStation = new RailroadDocument.Station();
-        innStation.setName(jSoupDoc.getElementsByAttribute("esr_name_in").attr("esr_name_in").toString());
-        innStation.setCode(jSoupDoc.getElementsByAttribute("esr_in").attr("esr_in").toString());
-
         railDoc.setSendStation(sendStation);
         railDoc.setReceiveStation(receiveStation);
 
-        railDoc.setOutStation(outStation);
-        railDoc.setInnStation(innStation);
+    }
+
+    private void parseAndAddCarriers(Document jSoupDoc,RailroadDocument railDoc){
+        Elements carrierElements = jSoupDoc.getElementsByTag("CARRIER");
+        carrierElements.forEach(element ->{
+            String codeInn = element.attr("esr_in");
+            String nameInn = element.attr("esr_name_in");
+            String codeOut = element.attr("esr_out");
+            String nameOut = element.attr("esr_name_out");
+            RailroadDocument.Station innStation = new RailroadDocument.Station(nameInn,codeInn);
+            RailroadDocument.Station outStation = new RailroadDocument.Station(nameOut,codeOut);
+            RailroadDocument.Carrier carrier =  new RailroadDocument.Carrier(innStation,outStation);
+            railDoc.addCarrier(carrier);
+                }
+        );
     }
 
     /*

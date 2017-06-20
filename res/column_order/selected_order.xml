@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <column_order>
-    <columnOrder>DOC_NUMBER</columnOrder>
-    <columnOrder>DOC_DATE</columnOrder>
-    <columnOrder>SEND_STATION_NAME_CODE</columnOrder>
-    <columnOrder>RECEIVE_STATION_NAME_CODE</columnOrder>
-    <columnOrder>OUT_STATION_NAME_CODE</columnOrder>
-    <columnOrder>INN_STATION_NAME_CODE</columnOrder>
-    <columnOrder>SENDER_NAME</columnOrder>
-    <columnOrder>SENDER_RAILROAD_CODE</columnOrder>
-    <columnOrder>RECEIVER_NAME</columnOrder>
-    <columnOrder>RECEIVER_RAILROAD_CODE</columnOrder>
-    <columnOrder>CARGO_NAME</columnOrder>
-    <columnOrder>CARGO_CODE</columnOrder>
-    <columnOrder>TARIF_PAYER_NAME</columnOrder>
-    <columnOrder>PAYER_CODE</columnOrder>
-    <columnOrder>PAYMENT_SUMM</columnOrder>
-    <columnOrder>VAGON_NUMBER</columnOrder>
-    <columnOrder>VAGON_NET_WEIGHT</columnOrder>
-    <columnOrder>VAGON_TARE_WEIGTH</columnOrder>
-    <columnOrder>VAGON_CARRYING_CAPASITY</columnOrder>
-    <columnOrder>COLUMN_7_INFO</columnOrder>
-    <columnOrder>COLUMN_15_INFO</columnOrder>
     <order>DOC_NUMBER</order>
     <order>DOC_DATE</order>
     <order>SEND_STATION_NAME_CODE</order>
