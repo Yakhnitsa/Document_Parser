@@ -13,7 +13,11 @@ import java.util.List;
  */
 public class RailroadDocument {
     private String docNumber;
+
     private Date docDate;
+    private Date delDate;
+    private Date notfDate;
+    private Date credDate;
 
     private Station sendStation;
     private Station receiveStation;
@@ -74,23 +78,31 @@ public class RailroadDocument {
     }
 
     public void setDocDate(String stringDate) {
-        if (stringDate.equals(""))
-            return;
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy kk:mm:ss");
-        try {
-            docDate = dateFormat.parse(stringDate);
-        } catch (ParseException e) {
-            dateFormat = new SimpleDateFormat("dd.MM.yyyy kk:mm");
-            try {
-                docDate = dateFormat.parse(stringDate);
-            } catch (ParseException e1) {
-                e1.printStackTrace();
-            }
-        }
+        docDate = getDateFromString(stringDate);
     }
 
-    public void setDocDate(Date docDate) {
-        this.docDate = docDate;
+    public Date getDelDate() {
+        return delDate;
+    }
+
+    public void setDelDate(String delDate) {
+        this.delDate = getDateFromString(delDate);
+    }
+
+    public Date getNotfDate() {
+        return notfDate;
+    }
+
+    public void setNotfDate(String notfDate) {
+        this.notfDate = getDateFromString(notfDate);
+    }
+
+    public Date getCredDate() {
+        return credDate;
+    }
+
+    public void setCredDate(String credDate) {
+        this.credDate = getDateFromString(credDate);
     }
 
     public String getDocNumber() {
@@ -232,19 +244,35 @@ public class RailroadDocument {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof RailroadDocument)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
         RailroadDocument document = (RailroadDocument) o;
-
-        return docNumber.equals(document.docNumber) && docDate.equals(document.docDate);
+        return docNumber != null ? docNumber.equals(document.docNumber) : document.docNumber == null;
 
     }
 
     @Override
     public int hashCode() {
-        return docNumber.hashCode();
+        return docNumber != null ? docNumber.hashCode() : 0;
     }
 
+    private Date getDateFromString(String stringDate){
+        if ((stringDate == null)||(stringDate.equals("")))
+            return null;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy kk:mm:ss");
+        Date date = null;
+        try {
+            date = dateFormat.parse(stringDate);
+        } catch (ParseException e) {
+            dateFormat = new SimpleDateFormat("dd.MM.yyyy kk:mm");
+            try {
+                date = dateFormat.parse(stringDate);
+            } catch (ParseException e1) {
+                e1.printStackTrace();
+            }
+        }
+        return date;
+    }
 
 
     public String getShortRepresentation() {

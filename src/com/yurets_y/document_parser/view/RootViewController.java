@@ -248,7 +248,7 @@ public class RootViewController {
     private int loadDocument(File file) {
         try {
             RailroadDocument doc = parser.parseFromFile(file);
-            if(documentList.contains(doc)){
+            if(documentList.contains(doc)&&!(doc.getDocNumber().equals(""))){
                 return 0;
             }
             documentList.add(doc);

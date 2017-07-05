@@ -26,10 +26,10 @@ public class DateUtil {
      * @return отформатированную строку
      */
     public static String format(Date date) {
-        LocalDateTime localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         if (date == null) {
-            return null;
+            return "";
         }
+        LocalDateTime localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         return DATE_FORMATTER.format(localDate);
     }
 

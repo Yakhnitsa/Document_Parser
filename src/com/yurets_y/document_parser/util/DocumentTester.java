@@ -11,6 +11,8 @@ import java.util.stream.Collectors;
  * Created by Admin on 20.06.2017.
  */
 public class DocumentTester {
+
+
     public static String testDocuments(List<RailroadDocument> documentList, File testFile){
         StringBuilder result = new StringBuilder();
         List<TestNode> controlList = getControlList(testFile);
@@ -38,7 +40,6 @@ public class DocumentTester {
 
         throw new RuntimeException("Нереализованная функция");
     }
-
 
     private static class TestNode{
         String docNumber;

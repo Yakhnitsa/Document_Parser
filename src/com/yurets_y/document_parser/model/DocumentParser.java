@@ -58,6 +58,8 @@ public class DocumentParser implements Parser {
 
         railDoc.setDocNumber(jSoupDocument.getElementsByAttribute("nom_doc").attr("nom_doc"));
         railDoc.setDocDate(jSoupDocument.getElementsByAttribute("date_otpr").attr("date_otpr").toString());
+        railDoc.setDelDate(jSoupDocument.getElementsByAttribute("date_grpol").attr("date_grpol").toString());
+        railDoc.setCredDate(jSoupDocument.getElementsByAttribute("date_vid").attr("date_vid").toString());
         //Добавление учасников трансп процесса:
         RailroadDocument.Participant sender = parseAndAddParticipants(jSoupDocument.getElementsByAttributeValue("type", "1"), railDoc);
         railDoc.setCargoSender(sender);

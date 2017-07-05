@@ -11,6 +11,8 @@ public enum RDocEnum {
     ORDER_NUMBER("№ п/п"),
     DOC_NUMBER("№ накладной"),
     DOC_DATE("Дата док"),
+    DOC_DELIV("Дата доставки"),
+    DOC_CRED("Дата раскредитовки"),
 
     SEND_STATION_NAME("ст. Отправления"),
     SEND_STATION_CODE("код ст. Отпр."),
