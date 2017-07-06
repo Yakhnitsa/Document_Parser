@@ -189,12 +189,12 @@ public class DocumentSaver implements Saver {
                 break;
             case DOC_DELIV:
                 cell.setCellStyle(CellStyleSet.getDateStyle(workbook));
-                if (railDoc.getDocDate() == null) break;
+                if (railDoc.getDelDate() == null) break;
                 cell.setCellValue(railDoc.getDelDate());
                 break;
             case DOC_CRED:
                 cell.setCellStyle(CellStyleSet.getDateStyle(workbook));
-                if (railDoc.getDocDate() == null) break;
+                if (railDoc.getCredDate() == null) break;
                 cell.setCellValue(railDoc.getCredDate());
                 break;
             case SEND_STATION_NAME:
