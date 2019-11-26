@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="360.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.components.OrderManagerOverviewController">
+   <children>
+      <ButtonBar prefHeight="50.0" prefWidth="354.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#applyButtonEvent" text="Применить" />
+            <Button mnemonicParsing="false" onAction="#loadOrder" text="Загрузить " />
+            <Button mnemonicParsing="false" onAction="#saveOrder" text="Сохранить" />
+        </buttons>
+      </ButtonBar>
+      <SplitPane dividerPositions="0.4" prefHeight="372.0" prefWidth="360.0" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="180.0">
+               <children>
+                  <TableView fx:id="leftTable" layoutX="-65.0" layoutY="-48.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="leftTableColumn" minWidth="180.0" prefWidth="180.0" resizable="false" text="Таблица колонок" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="180.0">
+               <children>
+                  <TableView fx:id="rightTable" layoutY="14.0" prefHeight="380.0" prefWidth="188.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="rightTableColumn" minWidth="180.0" prefWidth="180.0" resizable="false" text="Таблица выбранных колонок" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

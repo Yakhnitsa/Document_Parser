@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DocumentParserFXML" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RDocEnumOrderWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesRenamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/model_test/FilesFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/FilesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/img/magic-wang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/img/site-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/magic-wang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/wang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/model_test/FilesFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/model_test/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/34976860.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Борщев 3 ваг ЖД 36873651 (0682).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ворожба 7 ваг ЖД 34014639 (0091).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Золотоноша I 3 ваг ЖД 42424291 (0858).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Золотоноша I 3 ваг ЖД 42430611 (0858).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 1 ваг ЖД 36868784 (0498).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 3 ваг ЖД 36864122 (0498).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 7 ваг ЖД 36864031 (0498).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34012260 (0258).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34012914 (0258).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34013011 (0258).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 2 ваг ЖД 34020966 (0258).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 3 ваг ЖД 34012997 (0258).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Линовицы 2 ваг ЖД 44130961 (0858).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Линовицы 5 ваг ЖД 44130367 (0858).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 1 ваг ЖД 34022129 (6144).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 6 ваг ЖД 34012674 (6144).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 6 ваг ЖД 34022095 (0581).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Полтава-Киевская 13 ваг ЖД 44132751 (6144).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Полтава-Киевская 13 ваг качество 44132751 (6144).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 10 ваг ЖД 44129666 (0581).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 12 ваг ЖД 44130391 (0581).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 17 ваг ЖД 44132744 (0581).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ржевусская 3 ваг ЖД 34014720 (3398).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ржевусская 4 ваг ЖД 34014712 (0448).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Чернигов-Северный 15 ваг ЖД 34013524 (0498).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Чернигов-Северный 15 ваг ЖД 34013532 (0498).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/summ 07_03.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012674.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012914.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012997.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013524.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013532.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014639.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014712.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014720.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34020966.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34022095.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34022129.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36864031.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36864122.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36868784.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36873651.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/42424291.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/42430611.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44129666.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130367.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130391.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130961.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44132744.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44132751.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/32868820.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/34976860.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_resources/38901146.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_9_2_sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_14_20160307.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocumentParserFXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DocumentParserFXML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/res/properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RDocEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RDocEnumOrderWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RailroadDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/CellStyleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CellStyleSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Saver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/DocumentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DocumentTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/FileChooseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileChooseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/MessageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MessageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PropertiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/RDocEnumLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RDocEnumLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/RootView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/RootViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/RootViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentInfoOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DocumentInfoOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentInfoOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/DocumentInfoOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentTableOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DocumentTableOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentTableOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/OrderManagerOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/OrderManagerOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/OrderManagerOverviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SimpleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SimpleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/model_test/ParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/util_test/DateUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/DateUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/util_test/FileChooserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/FileChooserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/util_test/OrderLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/OrderLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/21566430.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32840357.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32929242.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32929259.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32929267.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32929275.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/32933962.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/37222270.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/44845238.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/Ичня.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_resources/кабанье.xml" beforeDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-329">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/RootViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="287" column="28" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initialController#0;class#RootViewController#0" />
+                <element signature="method#addFilesFromFolder#0;class#RootViewController#0" />
+                <element signature="method#addFiles#0;class#RootViewController#0" />
+                <element signature="method#saveAll#0;class#RootViewController#0" />
+                <element signature="method#showSaveResultMessage#0;class#RootViewController#0" />
+                <element signature="method#saveSelected#0;class#RootViewController#0" />
+                <element signature="method#renameFiles#0;class#RootViewController#0" />
+                <element signature="method#findFiles#0;class#RootViewController#0" />
+                <element signature="method#testDocumentList#0;class#RootViewController#0" />
+                <element signature="method#loadColumnOrder#0;class#RootViewController#0" />
+                <element signature="method#saveColumnOrder#0;class#RootViewController#0" />
+                <element signature="method#changeDefaultLoadFolder#0;class#RootViewController#0" />
+                <element signature="method#changeDefaultSaveFolder#0;class#RootViewController#0" />
+                <element signature="method#showRenameResultMessage#0;class#RootViewController#0" />
+                <element signature="method#loadTestDocuments#0;class#RootViewController#0" />
+                <element signature="method#loadDocument#0;class#RootViewController#0" />
+                <element signature="method#openFileInDesktop#0;class#RootViewController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentTableOverviewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+              <folding>
+                <element signature="method#viewDetails#0;class#DocumentTableOverviewController#0" />
+                <element signature="method#setRootController#0;class#DocumentTableOverviewController#0" />
+                <element signature="method#getPlaceHolder#0;class#DocumentTableOverviewController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9792">
+              <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2873">
+              <caret line="232" selection-start-line="232" selection-end-line="232" />
+              <folding>
+                <element signature="method#parseDocument#0;class#DocumentParser#0" />
+                <element signature="method#parseAndAddParticipants#0;class#DocumentParser#0" />
+                <element signature="method#parseAndAddCarriageInfoToDoc#0;class#DocumentParser#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="34976860.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_resources/34976860.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="235" column="54" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="54" />
+              <folding>
+                <element signature="n#uz-rwc-doc#0;n#document-data#0;n#uz-rwc-doc#0;n#!!top" />
+                <element signature="e#19589#19670#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ves_tary_arc</find>
+      <find>Doc</find>
+      <find>right</find>
+      <find>order</find>
+      <find>rename</find>
+      <find>system</find>
+      <find>VAGON</find>
+      <find>target=&quot;OTPR/VAGON[1]</find>
+      <find>delete</find>
+      <find>/update</find>
+      <find>56950</find>
+      <find>58529991</find>
+      <find>56900</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_branch" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentSaver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/document_parser/view/components/DocumentTableOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/util/DocumentTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FilesRenamer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/SimpleTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/CellStyleSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/parsetTest/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FilesRenamerImp.java" />
+        <option value="$PROJECT_DIR$/test_resources/38901146.xml" />
+        <option value="$PROJECT_DIR$/../../../../Укртранслогистика2/ОТГРУЗКА/2017_09_Сентябрь/15_09_2017/xml/34875237.xml" />
+        <option value="$PROJECT_DIR$/test_resources/32868820.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/bin/RDocEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/bin/RailroadDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/DocumentSaver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FilesFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/model_test/FilesRenimerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FileRenamerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/util/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/RootView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FilesFinderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/model_test/FilesFinderTest.java" />
+        <option value="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.xml" />
+        <option value="$PROJECT_DIR$/test_resources/07_03_2018/xml/33575523.xml" />
+        <option value="$PROJECT_DIR$/test_resources/07_03_2018/xml/33557075_double_tare.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/DocumentParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/RootViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/components/DocumentTableOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/components/OrderManagerOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bin/RDocEnumOrderWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CellStyleSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/components/OrderManagerOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/FilesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/style/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/FilesFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/FileChooseDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" />
+        <option value="$PROJECT_DIR$/test_resources/34976860.xml" />
+        <option value="$PROJECT_DIR$/src/test/model_test/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/RootViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="document_parser_fxml" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="document_parser_fxml" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="document_parser_fxml" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1365" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
+              <item name="test_resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559138879588" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Restaurant_manage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20641282" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\test_resources" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\java\tests" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\resources\fxml\img" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\resources\img" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\target" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yurets_y.document_parser.view.components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\test" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\test\resources" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\resources\img" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\resources\fxml" />
+      <recent name="D:\Users\Yuriy\Dropbox\Development\intelliJProjects\JavaFX\DocumentParserFXML\src\main\resources\fxml\style" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesFinderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.model_test.FilesFinderTest" />
+      <module name="DocumentParserFXML" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.model_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.yurets_y.document_parser.Main" />
+      <module name="DocumentParserFXML" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yurets_y.document_parser.RootViewController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainApp" />
+      <module name="doc_parser_fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainApp" />
+      <module name="doc_parser_fxml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tests.model_test.ParserTest" />
+      <module name="doc_parser_fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.parsetTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="NONE" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doc_parser_fxml-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/doc_parser_fxml-1.0-SNAPSHOT.jar" />
+    </configuration>
+    <configuration name="doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" />
+    </configuration>
+    <configuration name="doc_parser_fxml-1.1-WORKING.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/doc_parser_fxml-1.1-WORKING.jar" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.ParserTest" />
+      <item itemvalue="Application.FilesFinderTest" />
+      <item itemvalue="JAR Application.doc_parser_fxml-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING.jar" />
+      <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ParserTest" />
+        <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" />
+        <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING.jar" />
+        <item itemvalue="JAR Application.doc_parser_fxml-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Application.FilesFinderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1495008540274" duration="1639000" />
+      <workItem from="1495028122709" duration="1644000" />
+      <workItem from="1495029986635" duration="4959000" />
+      <workItem from="1495089698006" duration="22155000" />
+      <workItem from="1495265418270" duration="8300000" />
+      <workItem from="1495342879348" duration="13874000" />
+      <workItem from="1495460908017" duration="21612000" />
+      <workItem from="1495552927555" duration="7642000" />
+      <workItem from="1495627092776" duration="6179000" />
+      <workItem from="1495694729563" duration="8660000" />
+      <workItem from="1495787892396" duration="4234000" />
+      <workItem from="1495888925752" duration="7137000" />
+      <workItem from="1496126123395" duration="3961000" />
+      <workItem from="1496150250580" duration="22000" />
+      <workItem from="1496213604473" duration="9330000" />
+      <workItem from="1496245151158" duration="738000" />
+      <workItem from="1496323700908" duration="2386000" />
+      <workItem from="1496405358976" duration="2430000" />
+      <workItem from="1496819219573" duration="705000" />
+      <workItem from="1496820043704" duration="2595000" />
+      <workItem from="1496832611875" duration="3496000" />
+      <workItem from="1496837394786" duration="9599000" />
+      <workItem from="1497344709614" duration="1129000" />
+      <workItem from="1497432967375" duration="6352000" />
+      <workItem from="1497443848235" duration="902000" />
+      <workItem from="1497885558799" duration="12334000" />
+      <workItem from="1499087252362" duration="1282000" />
+      <workItem from="1499238569271" duration="8102000" />
+      <workItem from="1499328360834" duration="1817000" />
+      <workItem from="1499330847395" duration="3810000" />
+      <workItem from="1499842745136" duration="1236000" />
+      <workItem from="1503769773092" duration="7281000" />
+      <workItem from="1503826497866" duration="2925000" />
+      <workItem from="1503833089886" duration="6807000" />
+      <workItem from="1503911914505" duration="6723000" />
+      <workItem from="1504592052986" duration="2366000" />
+      <workItem from="1505554071873" duration="965000" />
+      <workItem from="1506920019750" duration="611000" />
+      <workItem from="1511873932080" duration="4493000" />
+      <workItem from="1518189132002" duration="2959000" />
+      <workItem from="1519120179975" duration="1605000" />
+      <workItem from="1519542498530" duration="3875000" />
+      <workItem from="1520956826398" duration="6726000" />
+      <workItem from="1521030184282" duration="6217000" />
+      <workItem from="1523436901722" duration="4444000" />
+      <workItem from="1523528284805" duration="5632000" />
+      <workItem from="1523877473303" duration="7281000" />
+      <workItem from="1523963282241" duration="68000" />
+      <workItem from="1523963396265" duration="1384000" />
+      <workItem from="1547032963412" duration="1064000" />
+      <workItem from="1547475477038" duration="1435000" />
+      <workItem from="1547547772191" duration="448000" />
+      <workItem from="1547549584260" duration="738000" />
+      <workItem from="1547623193639" duration="595000" />
+      <workItem from="1547811366383" duration="661000" />
+      <workItem from="1548423103211" duration="271000" />
+      <workItem from="1557213981035" duration="5067000" />
+      <workItem from="1557232285863" duration="7415000" />
+      <workItem from="1559037466275" duration="13627000" />
+      <workItem from="1559472244948" duration="211000" />
+      <workItem from="1559657153741" duration="599000" />
+      <workItem from="1562164870861" duration="247000" />
+      <workItem from="1562244081903" duration="3373000" />
+      <workItem from="1562660907640" duration="1401000" />
+      <workItem from="1562840065910" duration="686000" />
+      <workItem from="1562938763015" duration="29000" />
+      <workItem from="1566910406557" duration="4827000" />
+      <workItem from="1567420935069" duration="2590000" />
+      <workItem from="1568705850636" duration="11532000" />
+      <workItem from="1568787362980" duration="171000" />
+      <workItem from="1568874831919" duration="1385000" />
+      <workItem from="1569913807270" duration="7113000" />
+      <workItem from="1569932218111" duration="751000" />
+      <workItem from="1570011978698" duration="1220000" />
+    </task>
+    <task id="LOCAL-00001" summary="checkpoint 1&#10;Исправлены синтаксические ошибки">
+      <created>1496834141083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496834141083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="checkpoint 1&#10;Исправлены синтаксические ошибки">
+      <created>1496834527218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496834527218</updated>
+    </task>
+    <task id="LOCAL-00003" summary="checkpoint 2&#10;добавлен readme файл">
+      <created>1496838072748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496838072748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="checkpoint 3&#10;Удалены ненужные файлы">
+      <created>1496838376531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496838376531</updated>
+    </task>
+    <task id="LOCAL-00005" summary="checkpoint 3&#10;Тест">
+      <created>1496843615031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496843615031</updated>
+    </task>
+    <task id="LOCAL-00006" summary="checkpoint 3&#10;Тест">
+      <created>1496844169400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496844169400</updated>
+    </task>
+    <task id="LOCAL-00007" summary="checkpoint 3&#10;Тест">
+      <created>1496844264091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496844264091</updated>
+    </task>
+    <task id="LOCAL-00008" summary="checkpoint 3&#10;Тест">
+      <created>1496844684309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496844684309</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавлен PlaceHodler к таблице">
+      <created>1497961281148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1497961281148</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Тест функция проверки по списку">
+      <created>1497961637325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497961637325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Класс с тест функцией проверки по списку">
+      <created>1497963406248</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1497963406248</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавлен парсинг даты доставки">
+      <created>1499240340486</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1499240340486</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Перекидка проекта в maven&#10;">
+      <created>1499328498831</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1499328498831</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Перекидка проекта в maven&#10;">
+      <created>1499330718087</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1499330718087</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Настройка файла pom">
+      <created>1499331246154</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499331246154</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="321381000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.27449664" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.2985318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23163842" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3286119" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24563758" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.1380368" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24899329" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39548022" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32941177" />
+      <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32768363" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info active="true" anchor="right" id="Maven" order="10" visible="true" weight="0.3295302" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Application Servers" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952693" />
+      <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info id="Favorites" order="4" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32952693" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="checkpoint 1&#10;Полностью работоспособное приложение," />
+    <MESSAGE value="checkpoint 1&#10;Исправлены синтаксические ошибки" />
+    <MESSAGE value="checkpoint 2&#10;добавлен readme файл" />
+    <MESSAGE value="checkpoint 3&#10;Удалены ненужные файлы" />
+    <MESSAGE value="checkpoint 3&#10;Тест" />
+    <MESSAGE value="Добавлен PlaceHodler к таблице" />
+    <MESSAGE value="Тест функция проверки по списку" />
+    <MESSAGE value="Класс с тест функцией проверки по списку" />
+    <MESSAGE value="Добавлен парсинг даты доставки" />
+    <MESSAGE value="Перекидка проекта в maven&#10;" />
+    <MESSAGE value="Настройка файла pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка файла pom" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/model_test/ParserTest.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/model_test/ParserTest.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/model_test/ParserTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/RootViewController.java</url>
+          <line>295</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java</url>
+          <line>40</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="49" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="value" />
+        <watch expression="outStation" />
+        <watch expression="elements" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../Укртранслогистика2/ОТГРУЗКА/2017_09_Сентябрь/15_09_2017/xml/34875237.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/FilesRenamer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/yurets_y/document_parser/view/RootView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="163" column="34" selection-start-line="163" selection-start-column="34" selection-end-line="163" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/yurets_y/document_parser/view/RootViewController.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/RootView.fxml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar!/org/jsoup/nodes/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="376" column="20" selection-start-line="376" selection-start-column="20" selection-end-line="376" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DocumentInfoOverview.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/07_03_2018/xml/33575523.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/07_03_2018/xml/33557075_double_tare.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/38901146.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/akathist/maven/plugins/launch4j/launch4j-maven-plugin/1.7.24/launch4j-maven-plugin-1.7.24.jar!/META-INF/maven/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="302" column="8" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CellStyleSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/lib/maven-model-builder-3.3.9.jar!/org/apache/maven/model/pom-4.0.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RDocEnumOrderWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/components/OrderManagerOverviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/model_test/FilesFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DocumentTableOverview.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/wang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" selection-start-line="97" selection-start-column="2" selection-end-line="104" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/img/site-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/magic-wang.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FilesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/FilesFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/components/DocumentInfoOverviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/32868820.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="218" column="54" selection-start-line="218" selection-start-column="54" selection-end-line="218" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RDocEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Payment statistic/Payment statistic.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.14/poi-3.14.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileChooseDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/model_test/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/34976860.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="163" column="8" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="375" column="20" selection-start-line="375" selection-start-column="20" selection-end-line="375" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="248" column="37" selection-start-line="248" selection-start-column="37" selection-end-line="248" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_resources/34976860.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="235" column="54" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="54" />
+          <folding>
+            <element signature="n#uz-rwc-doc#0;n#document-data#0;n#uz-rwc-doc#0;n#!!top" />
+            <element signature="e#19589#19670#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1566914387760" expanded="true" signature="331:419" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+          <folding>
+            <element signature="method#parseDocument#0;class#DocumentParser#0" />
+            <element signature="method#parseAndAddParticipants#0;class#DocumentParser#0" />
+            <element signature="method#parseAndAddCarriageInfoToDoc#0;class#DocumentParser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9792">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+          <folding>
+            <element signature="method#viewDetails#0;class#DocumentTableOverviewController#0" />
+            <element signature="method#setRootController#0;class#DocumentTableOverviewController#0" />
+            <element signature="method#getPlaceHolder#0;class#DocumentTableOverviewController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/RootViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="287" column="28" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialController#0;class#RootViewController#0" />
+            <element signature="method#addFilesFromFolder#0;class#RootViewController#0" />
+            <element signature="method#addFiles#0;class#RootViewController#0" />
+            <element signature="method#saveAll#0;class#RootViewController#0" />
+            <element signature="method#showSaveResultMessage#0;class#RootViewController#0" />
+            <element signature="method#saveSelected#0;class#RootViewController#0" />
+            <element signature="method#renameFiles#0;class#RootViewController#0" />
+            <element signature="method#findFiles#0;class#RootViewController#0" />
+            <element signature="method#testDocumentList#0;class#RootViewController#0" />
+            <element signature="method#loadColumnOrder#0;class#RootViewController#0" />
+            <element signature="method#saveColumnOrder#0;class#RootViewController#0" />
+            <element signature="method#changeDefaultLoadFolder#0;class#RootViewController#0" />
+            <element signature="method#changeDefaultSaveFolder#0;class#RootViewController#0" />
+            <element signature="method#showRenameResultMessage#0;class#RootViewController#0" />
+            <element signature="method#loadTestDocuments#0;class#RootViewController#0" />
+            <element signature="method#loadDocument#0;class#RootViewController#0" />
+            <element signature="method#openFileInDesktop#0;class#RootViewController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DocumentParserFXML</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20641282" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DocumentParserFXML</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.poi-ooxml:poi:3.14</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

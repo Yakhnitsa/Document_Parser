@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz-rwc-doc xmlns="uz:rwc:document:1.9">
+    <document-data>
+        <uz-rwc-doc>
+            <document-data>
+                <OTPR country_nazn="756" country_otpr="804" date_plan="15.09.2019" kod_doc="90" loader="2" metod="58"
+                      pr_locom="0" rab_esr="11" speed="2" vid="6" xmlns="uz:rwc:document:project:1.9">
+                    <CLIENT account="26009023927901" adress="м. Київ вул. Солом`янська, 3 оф. 815"
+                            bank="АТ &quot;Альфа-Банк&quot;" city="м. Київ" kod="8346" mfo="300346"
+                            name="ТОВ &quot;УТЛ-2&quot;" okpo="41515562" type="1"/>
+                    <CLIENT adress="г. Одесса, Таможенная площадь, 1  " kod="4967"
+                            name="Администрация Одесского МТП, для ООО «ТЭК «Зектер» (ООО «Новотех-Терминал») "
+                            okpo="38728457" type="2"/>
+                    <PL kod_plat="8210260" name_plat="ТОВ &quot;УТЛ-2&quot;" type="0"/>
+                    <ROUTE index="0" name_from="Бар" name_to="Черноморская (эксп. для ТИС)" rw_from="22" rw_to="22"
+                           stn_from="332606" stn_to="403002" zd_nazn="22" zd_otpr="22"/>
+                    <SHTEMPEL column_num="20" info_sht="Експорт" nom_sht="706"/>
+                    <SHTEMPEL column_num="20" info_sht="Власник (орендар, оператор) вагонів див. відомість"
+                              nom_sht="660"/>
+                    <SHTEMPEL column_num="20" info_sht="Насыпью" nom_sht="705"/>
+                    <SHTEMPEL column_num="19" info_sht="Загальна кількість вагонів -  10. Дивись відомість."
+                              nom_sht="708"/>
+                    <SHTEMPEL column_num="26" info_sht="На вагонных весах (150 т)" nom_sht="718"/>
+                    <SHTEMPEL column_num="7" info_sht="Для вивезення водним транспортом у Швейцария" nom_sht="719"/>
+                    <TEXT branch="на П/К" create_place="Бар"
+                          marks="Експортер ТОВ «АДМ ЮКРЕЙН»&#xA;Вантаж прямує в квоту ТОВ «ТЕК «Зектер» для ТОВ «АДМ ЮКРЕЙН»&#xA;Експедитор в порту ТОВ «ТЕК «Зектер»"
+                          name_gr="Ответственный за погрузку менеджер Кивнюк Р"/>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «Крейсерская Скорость»"
+                           nomer="95159117" pr_sobst="1" rod_vag="95" u_tara="22100" use="0" ves_tary_arc="21500">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56900"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215123" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215113" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215115" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215114" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215111" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215122" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215119" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «Крейсерская Скорость»"
+                           nomer="53234258" pr_sobst="1" rod_vag="95" u_tara="22550" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56950"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215186" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215188" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215187" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215190" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215176" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215173" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215189" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «Крейсерская Скорость»"
+                           nomer="58529991" pr_sobst="1" rod_vag="95" u_tara="22500" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56900"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215166" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215169" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215172" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215162" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215163" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215164" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215168" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «Крейсерская Скорость»"
+                           nomer="58527615" pr_sobst="1" rod_vag="95" u_tara="22350" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="59300"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215150" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215147" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215156" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215149" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215158" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215145" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215146" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="58534876" pr_sobst="1" rod_vag="95" u_tara="21900" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="57000"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215124" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215129" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215126" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215131" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215135" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215136" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215133" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="58540337" pr_sobst="1" rod_vag="95" u_tara="22600" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="57150"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215116" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215108" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215109" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215106" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215118" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215107" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215120" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="58559154" pr_sobst="1" rod_vag="95" u_tara="21800" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56700"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215184" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215195" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215185" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215179" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215175" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215174" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215193" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="95178018" pr_sobst="1" rod_vag="95" u_tara="21100" use="0" ves_tary_arc="22000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56900"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215165" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215152" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215155" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215141" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215153" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215151" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215161" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="95186151" pr_sobst="1" rod_vag="95" u_tara="21150" use="0" ves_tary_arc="22200">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56950"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215182" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215183" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215178" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215171" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215180" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215177" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ж215181" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»"
+                           nomer="58528159" pr_sobst="1" rod_vag="95" u_tara="22550" use="0" ves_tary_arc="23000">
+                        <COLLECT_V danger_ak_pr="0" kod_etsng="021083"
+                                   name_etsng="Семена масличных культур,не поименованные в алфавите" pac="VR"
+                                   vesg="56950"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Е727300" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ш448732" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ш448797" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ш448715" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Ш448735" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Д709206" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="332606" nom_zpu="Д709202" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                </OTPR>
+            </document-data>
+            <signature>
+                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
+            </signature>
+        </uz-rwc-doc>
+        <changes xmlns="uz:rwc:document:accepted:1.9">
+            <delete target="OTPR/VAGON[10]"/>
+            <delete target="OTPR/VAGON[1]/ZPU_V[7]"/>
+            <delete target="OTPR/VAGON[1]/ZPU_V[6]"/>
+            <delete target="OTPR/VAGON[1]/ZPU_V[5]"/>
+            <delete target="OTPR">
+                <OTPR pr_locom="0"/>
+            </delete>
+            <update target="OTPR">
+                <OTPR date_otpr="15.09.2019 10:15:00" distance_way="418" measure_equip_num="447,446 ТВВ-150-50-13,5 (8)"
+                      nom_doc="34976860" nom_plan="909589" osum="8323500" srok_end="20.09.2019 00:00:00" type_pay="0"/>
+            </update>
+            <update target="OTPR/CLIENT[1]">
+                <CLIENT representative_pib="Шевчук А.М."/>
+            </update>
+            <insert target="OTPR/PL[1]/PAY[1]">
+                <PAY currency="980" kod="001" pr_avt="1" summa="8323500"/>
+            </insert>
+            <delete target="OTPR/ROUTE[1]">
+                <ROUTE zd_nazn="22" zd_otpr="22"/>
+            </delete>
+            <update target="OTPR/ROUTE[1]">
+                <ROUTE name_to="Одесса-Порт (эксп.)" stn_to="400409"/>
+            </update>
+            <insert target="OTPR/SCHEMA[1]">
+                <SCHEMA carry_sch="2" pr_sch="2"/>
+            </insert>
+            <insert target="OTPR/SENDER_DOC[1]">
+                <SENDER_DOC
+                        description="Декларація про поміщення в режим тимчасового ввезення, № 232816, вiд 04.02.2017"
+                        doc_date="04.02.2017" doc_num="232816" doc_type="610"
+                        doc_type_name="Декларація про поміщення в режим тимчасового ввезення" id="4204130"/>
+            </insert>
+            <update target="OTPR/SHTEMPEL[4]">
+                <SHTEMPEL info_sht="Загальна кількість вагонів -  9. Дивись відомість."/>
+            </update>
+            <insert target="OTPR/TAKS[1]">
+                <TAKS coeff_mode="2" coeff_value="2.4190"/>
+            </insert>
+            <delete target="OTPR/TEXT[1]">
+                <TEXT create_place="Бар"/>
+            </delete>
+            <update target="OTPR/TEXT[1]">
+                <TEXT name_tov="Бараболя О.М."/>
+            </update>
+            <update target="OTPR/VAGON[1]">
+                <VAGON calc_weight="55000"/>
+            </update>
+            <delete target="OTPR/VAGON[1]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[1]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите"/>
+            </update>
+            <insert target="OTPR/VAGON[1]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <insert target="OTPR/VAGON[1]/ZPU_V[1]">
+                <ZPU_V esr_zpu="332606" nom_zpu="Ж215111" sobst_zpu="1" zd_kod="22" zpu="1"/>
+            </insert>
+            <insert target="OTPR/VAGON[1]/ZPU_V[2]">
+                <ZPU_V esr_zpu="332606" nom_zpu="Ж215122" sobst_zpu="1" zd_kod="22" zpu="1"/>
+            </insert>
+            <insert target="OTPR/VAGON[1]/ZPU_V[3]">
+                <ZPU_V esr_zpu="332606" nom_zpu="Ж215119" sobst_zpu="1" zd_kod="22" zpu="1"/>
+            </insert>
+            <update target="OTPR/VAGON[2]">
+                <VAGON calc_weight="55000" nomer="58529991" u_tara="22500"/>
+            </update>
+            <delete target="OTPR/VAGON[2]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[2]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="56900"/>
+            </update>
+            <insert target="OTPR/VAGON[2]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[2]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215166"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215169"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215172"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215162"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215163"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215164"/>
+            </update>
+            <update target="OTPR/VAGON[2]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215168"/>
+            </update>
+            <update target="OTPR/VAGON[3]">
+                <VAGON calc_weight="60000" nomer="58527615" u_tara="22350"/>
+            </update>
+            <delete target="OTPR/VAGON[3]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[3]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="59300"/>
+            </update>
+            <insert target="OTPR/VAGON[3]/PAY_V[1]">
+                <PAY_V kod="001" summa="934700"/>
+            </insert>
+            <update target="OTPR/VAGON[3]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215150"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215147"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215156"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215149"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215158"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215145"/>
+            </update>
+            <update target="OTPR/VAGON[3]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215146"/>
+            </update>
+            <update target="OTPR/VAGON[4]">
+                <VAGON calc_weight="55000" name_firm_owner="ООО «СМАРТ РЕЙЛ ЛОГИСТИКС»" nomer="58534876"
+                       u_tara="21900"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="57000"/>
+            </update>
+            <insert target="OTPR/VAGON[4]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[4]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215124"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215129"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215126"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215131"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215135"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215136"/>
+            </update>
+            <update target="OTPR/VAGON[4]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215133"/>
+            </update>
+            <update target="OTPR/VAGON[5]">
+                <VAGON calc_weight="55000" nomer="58540337" u_tara="22600"/>
+            </update>
+            <delete target="OTPR/VAGON[5]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[5]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="57150"/>
+            </update>
+            <insert target="OTPR/VAGON[5]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[5]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215116"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215108"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215109"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215106"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215118"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215107"/>
+            </update>
+            <update target="OTPR/VAGON[5]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215120"/>
+            </update>
+            <update target="OTPR/VAGON[6]">
+                <VAGON calc_weight="55000" nomer="58559154" u_tara="21800"/>
+            </update>
+            <delete target="OTPR/VAGON[6]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[6]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="56700"/>
+            </update>
+            <insert target="OTPR/VAGON[6]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[6]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215184"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215195"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215175"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215174"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215193"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215185"/>
+            </update>
+            <update target="OTPR/VAGON[6]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215179"/>
+            </update>
+            <update target="OTPR/VAGON[7]">
+                <VAGON calc_weight="55000" nomer="95178018" u_tara="21100" ves_tary_arc="22000"/>
+            </update>
+            <delete target="OTPR/VAGON[7]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[7]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="56900"/>
+            </update>
+            <insert target="OTPR/VAGON[7]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[7]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215165"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215152"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215155"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215141"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215153"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215151"/>
+            </update>
+            <update target="OTPR/VAGON[7]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215161"/>
+            </update>
+            <update target="OTPR/VAGON[8]">
+                <VAGON calc_weight="55000" nomer="95186151" u_tara="21150" ves_tary_arc="22200"/>
+            </update>
+            <delete target="OTPR/VAGON[8]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[8]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите" vesg="56950"/>
+            </update>
+            <insert target="OTPR/VAGON[8]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[8]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Ж215182"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ж215183"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ж215178"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ж215171"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ж215180"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Ж215177"/>
+            </update>
+            <update target="OTPR/VAGON[8]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Ж215181"/>
+            </update>
+            <update target="OTPR/VAGON[9]">
+                <VAGON calc_weight="55000" nomer="58528159" u_tara="22550" ves_tary_arc="23000"/>
+            </update>
+            <delete target="OTPR/VAGON[9]/COLLECT_V[1]">
+                <COLLECT_V danger_ak_pr="0"/>
+            </delete>
+            <update target="OTPR/VAGON[9]/COLLECT_V[1]">
+                <COLLECT_V name_etsng="Семена масличных культур, не поименованные в алфавите"/>
+            </update>
+            <insert target="OTPR/VAGON[9]/PAY_V[1]">
+                <PAY_V kod="001" summa="923600"/>
+            </insert>
+            <update target="OTPR/VAGON[9]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Е727300"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Ш448732"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Ш448797"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Ш448715"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Ш448735"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Д709206"/>
+            </update>
+            <update target="OTPR/VAGON[9]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Д709202"/>
+            </update>
+        </changes>
+    </document-data>
+    <signature>
+        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
+    </signature>
+</uz-rwc-doc>

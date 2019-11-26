@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz-rwc-doc xmlns="uz:rwc:document:1.8">
+    <document-data>
+        <uz-rwc-doc>
+            <document-data>
+                <OTPR country_nazn="756" country_otpr="804" date_plan="20.09.2018" doc_lang="de" kod_doc="90" loader="2"
+                      measure_equip_num="тензометрические весы №927" metod="58" pr_locom="0" rab_esr="11" speed="2"
+                      vid="6" xmlns="uz:rwc:document:project:1.8">
+                    <CLIENT account="26009023927901" adress="м. Київ вул. Солом`янська, 3 оф. 815"
+                            bank="АТ &quot;Альфа-Банк&quot;" city="м. Київ" kod="8346" mfo="300346"
+                            name="ТОВ &quot;УТЛ-2&quot;" okpo="41515562" type="1"/>
+                    <CLIENT adress="Україна,54000 м.Миколаїв,вул.Заводська,9." kod="6144"
+                            name="ТОВ «ДССК» в квоту COFCO Resources S.A." okpo="31012697" type="2"/>
+                    <PL kod_plat="8210260" name_plat="ТОВ &quot;УТЛ-2&quot;" type="0"/>
+                    <ROUTE index="0" name_from="Чернигов-Северный" name_to="Николаев-Грузовой (эксп.)" rw_from="22"
+                           rw_to="22" stn_from="325104" stn_to="415601" zd_nazn="22" zd_otpr="22"/>
+                    <SHTEMPEL column_num="20" info_sht="Експорт" nom_sht="706"/>
+                    <SHTEMPEL column_num="20"
+                              info_sht="Власний вагон. Власник АО &quot;Русагротранс&quot;. Вагон, переданий в оренду. Орендар ООО &quot;РТК-УКРАИНА&quot;."
+                              nom_sht="624"/>
+                    <SHTEMPEL column_num="20" info_sht="Насыпью" nom_sht="705"/>
+                    <SHTEMPEL column_num="19" info_sht="Загальна кількість вагонів -  14. Дивись відомість."
+                              nom_sht="708"/>
+                    <SHTEMPEL column_num="26" info_sht="На вагонных весах (150 т)" nom_sht="718"/>
+                    <SHTEMPEL column_num="7" info_sht="Для вивезення водним транспортом у Швейцария" nom_sht="719"/>
+                    <TEXT branch="на п/к" create_place="Чернигов-Северный"
+                          marks="Сертификаты качества отправлены почтой."
+                          name_gr="Ответственный за погрузку менеджер Гайдук А."
+                          zayava="Експортер- ТОВ «ЧЕРНІГІВСЬКА ІНДУСТРІАЛЬНА МОЛОЧНА КОМПАНІЯ» за  Контрактом №566393/7 от 06.03.18р   «Negoce Agricole S.a.r.l.» для COFCO Resources S.A.&quot;"/>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58559311" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21900">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69350"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764377" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764379" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764380" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764378" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764384" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764385" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764383" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="71.0" kod_adm="22" kol_os="4" nomer="58558511" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22000">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="68300"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764399" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764374" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764398" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764372" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764397" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764387" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764400" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58522061" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22150">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69800"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764365" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764361" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764394" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764393" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764391" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764395" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764392" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58523408" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22100">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="68650"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845150" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845152" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735163" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845148" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735184" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735149" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735165" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="20" kol_os="4" nomer="58534181" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21650">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69900"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845165" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845166" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845168" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883606" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883614" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883605" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883608" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58523572" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22150">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69250"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689193" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689197" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689188" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689187" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689192" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689195" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А689191" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58550922" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21600">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69600"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845178" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845174" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845176" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735162" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735156" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735139" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735148" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="71.0" kod_adm="20" kol_os="4" nomer="58560954" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21800">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="70450"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ш050399" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я988647" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я988650" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я988623" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А221786" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А221782" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А221784" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="22" kol_os="4" nomer="58518200" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21650">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69350"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735107" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735108" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735104" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я954266" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я954264" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883615" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883639" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="20" kol_os="4" nomer="58533852" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21250">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69150"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я181663" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735159" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735164" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735152" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764343" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764342" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ц764348" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="71.0" kod_adm="20" kol_os="4" nomer="58560293" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21500">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="70800"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я735168" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845179" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845189" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я845182" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="70.0" kod_adm="20" kol_os="4" nomer="58552373" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22150">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="69350"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я181661" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269135" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269125" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269118" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269129" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269130" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А269111" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="71.0" kod_adm="20" kol_os="4" nomer="58561846" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="22150">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="70800"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я181665" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я988605" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="А524008" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я988601" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                    <VAGON gruzp="71.0" kod_adm="20" kol_os="4" nomer="53229365" pr_sobst="1" rod_vag="95" use="0"
+                           ves_tary_arc="21900">
+                        <COLLECT_V kod_etsng="011005" name_etsng="Пшеница" pac="VR" vesg="70050"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883612" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883667" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883673" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883672" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883630" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Я883629" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                        <ZPU_V esr_zpu="325104" nom_zpu="Ш050315" sobst_zpu="1" zd_kod="22" zpu="1"/>
+                    </VAGON>
+                </OTPR>
+            </document-data>
+            <signature>
+                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
+            </signature>
+        </uz-rwc-doc>
+        <changes xmlns="uz:rwc:document:accepted:1.8">
+            <delete target="OTPR">
+                <OTPR pr_locom="0"/>
+            </delete>
+            <update target="OTPR">
+                <OTPR date_otpr="20.09.2018 14:00:00" distance_way="823" nom_doc="33575523" nom_plan="907824"
+                      osum="20035400" srok_end="27.09.2018 00:00:00" type_pay="0"/>
+            </update>
+            <update target="OTPR/CLIENT[1]">
+                <CLIENT representative_pib="Ябчанка А.П."/>
+            </update>
+            <insert target="OTPR/PL[1]/PAY[1]">
+                <PAY currency="980" kod="001" pr_avt="1" summa="20035400"/>
+            </insert>
+            <delete target="OTPR/ROUTE[1]">
+                <ROUTE zd_nazn="22" zd_otpr="22"/>
+            </delete>
+            <insert target="OTPR/SCHEMA[1]">
+                <SCHEMA carry_sch="2" pr_sch="2"/>
+            </insert>
+            <insert target="OTPR/SENDER_DOC[1]">
+                <SENDER_DOC
+                        description="Декларація про поміщення в режим тимчасового ввезення, № 232816, вiд 04.02.2017"
+                        doc_date="04.02.2017" doc_num="232816" doc_type="610"
+                        doc_type_name="Декларація про поміщення в режим тимчасового ввезення" id="4204130"/>
+            </insert>
+            <update target="OTPR/SHTEMPEL[2]">
+                <SHTEMPEL info_sht="Власний вагон. Власник ООО &quot;РТК-УКРАИНА&quot;" nom_sht="611"/>
+            </update>
+            <insert target="OTPR/TAKS[1]">
+                <TAKS coeff_mode="2" coeff_value="2.1180"/>
+            </insert>
+            <delete target="OTPR/TEXT[1]">
+                <TEXT create_place="Чернигов-Северный"/>
+            </delete>
+            <update target="OTPR/TEXT[1]">
+                <TEXT name_tov="Шуман О.А."/>
+            </update>
+            <update target="OTPR/VAGON[1]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[1]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[1]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[1]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[2]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[2]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[2]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[2]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[3]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[3]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[3]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[3]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[4]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[4]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[1]">
+                <ZPU_V nom_zpu="Я735165"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[2]">
+                <ZPU_V nom_zpu="Я845150"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[3]">
+                <ZPU_V nom_zpu="Я845152"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[4]">
+                <ZPU_V nom_zpu="Я735163"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[5]">
+                <ZPU_V nom_zpu="Я845148"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[6]">
+                <ZPU_V nom_zpu="Я735184"/>
+            </update>
+            <delete target="OTPR/VAGON[4]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[4]/ZPU_V[7]">
+                <ZPU_V nom_zpu="Я735149"/>
+            </update>
+            <update target="OTPR/VAGON[5]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[5]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[5]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[5]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[6]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[6]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[6]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[6]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[7]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[7]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[7]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[7]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[8]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[8]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[8]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[8]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[9]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[9]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[9]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[9]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[10]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[10]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[10]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[10]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[11]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[11]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[11]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[11]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[11]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[11]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[12]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[12]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[12]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[12]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[13]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[13]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[13]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[13]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[13]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[13]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <update target="OTPR/VAGON[14]">
+                <VAGON calc_weight="70000"/>
+            </update>
+            <insert target="OTPR/VAGON[14]/PAY_V[1]">
+                <PAY_V kod="001" summa="1431100"/>
+            </insert>
+            <delete target="OTPR/VAGON[14]/ZPU_V[1]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[2]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[3]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[4]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[5]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[6]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+            <delete target="OTPR/VAGON[14]/ZPU_V[7]">
+                <ZPU_V zd_kod="22"/>
+            </delete>
+        </changes>
+    </document-data>
+    <signature>
+        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
+    </signature>
+</uz-rwc-doc>

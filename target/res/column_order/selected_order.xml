@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column_order>
+    <order>DOC_NUMBER</order>
+    <order>DOC_DATE</order>
+    <order>SEND_STATION_NAME_CODE</order>
+    <order>RECEIVE_STATION_NAME_CODE</order>
+    <order>OUT_STATION_NAME_CODE</order>
+    <order>INN_STATION_NAME_CODE</order>
+    <order>SENDER_NAME</order>
+    <order>SENDER_RAILROAD_CODE</order>
+    <order>RECEIVER_NAME</order>
+    <order>RECEIVER_RAILROAD_CODE</order>
+    <order>CARGO_NAME</order>
+    <order>CARGO_CODE</order>
+    <order>TARIF_PAYER_NAME</order>
+    <order>PAYER_CODE</order>
+    <order>PAYMENT_SUMM</order>
+    <order>VAGON_NUMBER</order>
+    <order>VAGON_NET_WEIGHT</order>
+    <order>VAGON_TARE_WEIGTH</order>
+    <order>VAGON_CARRYING_CAPASITY</order>
+    <order>COLUMN_7_INFO</order>
+    <order>COLUMN_15_INFO</order>
+</column_order>

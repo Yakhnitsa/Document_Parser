@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<column_order>
+    <columnOrder>DOC_DATE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>CARGO_NAME</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>RECEIVE_STATION_NAME_CODE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>DOC_NUMBER</columnOrder>
+    <columnOrder>DOC_DATE</columnOrder>
+    <columnOrder>VAGON_NUMBER</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>SEND_STATION_NAME_CODE</columnOrder>
+    <columnOrder>VAGON_NET_WEIGHT</columnOrder>
+    <columnOrder>VOID_SPACE</columnOrder>
+    <columnOrder>COLUMN_7_INFO</columnOrder>
+    <columnOrder>COLUMN_15_INFO</columnOrder>
+    <order>DOC_DATE</order>
+    <order>VOID_SPACE</order>
+    <order>CARGO_NAME</order>
+    <order>VOID_SPACE</order>
+    <order>RECEIVE_STATION_NAME_CODE</order>
+    <order>VOID_SPACE</order>
+    <order>VOID_SPACE</order>
+    <order>DOC_NUMBER</order>
+    <order>DOC_DATE</order>
+    <order>VAGON_NUMBER</order>
+    <order>VOID_SPACE</order>
+    <order>VOID_SPACE</order>
+    <order>VOID_SPACE</order>
+    <order>SEND_STATION_NAME_CODE</order>
+    <order>VAGON_NET_WEIGHT</order>
+    <order>VOID_SPACE</order>
+    <order>COLUMN_7_INFO</order>
+    <order>COLUMN_15_INFO</order>
+</column_order>

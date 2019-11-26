@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" styleClass="background" stylesheets="@style/style.css"
+            xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="view.RootViewController">
+    <top>
+        <MenuBar styleClass="background" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                    <items>
+                        <Menu mnemonicParsing="false" text="Загрузить">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#addFiles" text="Загрузить документы"/>
+                                <MenuItem mnemonicParsing="false" onAction="#addFilesFromFolder"
+                                          text="Загрузить документы с папки"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Сохранить">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#saveAll" text="Сохранить все "/>
+                                <MenuItem mnemonicParsing="false" onAction="#saveSelected" text="Сохранить выделенные"/>
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Удалить">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Удалить все"/>
+                                <MenuItem mnemonicParsing="false" text="Удалить выделенные"/>
+                            </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" onAction="#renameFiles" text="Переименовать файлы"/>
+                        <MenuItem mnemonicParsing="false" onAction="#findFiles" text="Найти файлы по списку"/>
+                        <MenuItem mnemonicParsing="false" onAction="#magicWang" text="MagicWang"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
+                        <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Выход"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Настройки">
+                    <items>
+                        <Menu mnemonicParsing="false" text="Настройки">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#changeDefaultLoadFolder"
+                                          text="Изменить папку импорта"/>
+                                <MenuItem mnemonicParsing="false" onAction="#changeDefaultSaveFolder"
+                                          text="Изменить папку экспорта"/>
+                            </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" onAction="#changeColumnOrder"
+                                  text="Настроить порядок колонок"/>
+                        <MenuItem mnemonicParsing="false" onAction="#saveColumnOrder" text="Сохранить порядок"/>
+                        <MenuItem mnemonicParsing="false" onAction="#loadColumnOrder" text="Загрузить порядок"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="О программе">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="О программе"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <AnchorPane styleClass="background" stylesheets="@style/style.css" BorderPane.alignment="CENTER"/>
+    </center>
+    <bottom>
+        <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="BOTTOM_RIGHT">
+            <buttons>
+                <Button fx:id="magicWangButton" mnemonicParsing="false" onAction="#magicWang" text="Magic wang">
+                    <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@img/magic-wang.png" />
+                                <!--<Image url="https://i.stack.imgur.com/y1evM.png" />-->
+                                <!--<Image url="@img/site-logo.png" />-->
+                                <!--<Image url="wang.png"/>-->
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="addFileButton" mnemonicParsing="false" onAction="#addFiles" text="Добавить файл"/>
+                <Button fx:id="addFolderButton" mnemonicParsing="false" onAction="#addFilesFromFolder"
+                        text="Добавить папку"/>
+                <Button fx:id="saveAllButton" mnemonicParsing="false" onAction="#saveSelected"
+                        text="Сохранить выделенные"/>
+                <Button fx:id="saveSelectedButton" mnemonicParsing="false" onAction="#saveAll" text="Сохранить все"/>
+            </buttons>
+        </ButtonBar>
+    </bottom>
+</BorderPane>
