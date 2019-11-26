@@ -62,6 +62,8 @@ public enum RDocEnum {
     COLUMN_7_INFO("графа7"),
     COLUMN_15_INFO("графа15"),
 
+    SPECIAL_CONDITIONS_STAMP("Особые условия, штамп 717"),
+
     VOID_SPACE(" ");
 
     private String fullName;

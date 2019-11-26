@@ -2,9 +2,7 @@ package bin;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Yuriy on 29.06.2016.
@@ -40,7 +38,7 @@ public class RailroadDocument {
 
     private List<Vagon> vagonList = new ArrayList<>();
 
-    private List<Stamp> stampList = new ArrayList();
+    private Map<String, String> stamps = new HashMap<String, String>();
 
     /*
      * getters and setters:
@@ -291,6 +289,22 @@ public class RailroadDocument {
         this.tarifDistance = tarifDistance;
     }
 
+    public Map<String, String> getStamps() {
+        return stamps;
+    }
+
+    public boolean containsStamp(String key) {
+        return getStamps().containsKey(key);
+    }
+
+    public String getStampText(String key) {
+        return getStamps().get(key);
+    }
+
+    public String putStamp(String key, String value) {
+        return getStamps().put(key, value);
+    }
+
     /*
      * Класс для сохранения данных про вагон:
      */
@@ -506,42 +520,5 @@ public class RailroadDocument {
         }
     }
 
-    public static class Stamp {
-        private String numb;
-        private String text;
-        private String column;
 
-        public Stamp() {
-        }
-
-        public Stamp(String numb, String text, String column) {
-            this.numb = numb;
-            this.text = text;
-            this.column = column;
-        }
-
-        public String getNumb() {
-            return numb;
-        }
-
-        public void setNumb(String numb) {
-            this.numb = numb;
-        }
-
-        public String getText() {
-            return text;
-        }
-
-        public void setText(String text) {
-            this.text = text;
-        }
-
-        public String getColumn() {
-            return column;
-        }
-
-        public void setColumn(String column) {
-            this.column = column;
-        }
-    }
 }

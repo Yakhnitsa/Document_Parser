@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.yurets_y</groupId>
     <artifactId>doc_parser_fxml</artifactId>
-    <version>1.1-WORKING</version>
+    <version>1.1.2-WORKING</version>
     <packaging>jar</packaging>
 
     <name>document_parser_fxml</name>
@@ -86,7 +86,7 @@
                                 <waitForWindow>true</waitForWindow>
                                 <timeout>2</timeout>
                             </splash>
-                            <jar>target/doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar</jar>
+                            <jar>target/doc_parser_fxml-1.1.2-WORKING-jar-with-dependencies.jar</jar>
                             <errTitle>enccg</errTitle>
                             <classPath>
                                 <mainClass>MainApp</mainClass>

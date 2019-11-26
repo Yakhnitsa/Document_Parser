@@ -35,7 +35,6 @@ public class MainApp extends Application {
         try {
             // Загружаем корневой макет из fxml файла.
             FXMLLoader loader = new FXMLLoader();
-            System.out.println(getClass());
             loader.setLocation(getClass().getResource("fxml/RootView.fxml"));
             this.rootLayout = loader.load();
             RootViewController rootController = (loader.getController());

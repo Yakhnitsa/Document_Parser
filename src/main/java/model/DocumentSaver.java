@@ -296,6 +296,9 @@ public class DocumentSaver implements Saver {
             case CARGO_CODE:
                 cell.setCellValue(railDoc.getCargoCode());
                 break;
+            case SPECIAL_CONDITIONS_STAMP:
+                cell.setCellValue(railDoc.containsStamp("717")? "Особливі умови, 717!":"");
+                break;
             case VOID_SPACE:
                 cell.setCellValue("");
                 break;
@@ -318,6 +321,7 @@ public class DocumentSaver implements Saver {
             case COLUMN_15_INFO:
                 cell.setCellValue(railDoc.getColumn15info());
                 break;
+
 
             default:
                 cell.setCellValue("тип данных не определен!!!");

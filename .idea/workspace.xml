@@ -12,7 +12,34 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DocumentParserFXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DocumentParserFXML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/res/properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/model_test/FilesFinderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RDocEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RDocEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Carrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Carrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Participant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Participant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Stamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Station.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Vagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RailroadDocument$Vagon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bin/RailroadDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bin/RailroadDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/OrderManagerOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/OrderManagerOverview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/DocumentParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/DocumentParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/DocumentSaver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/DocumentSaver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/DocumentSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/DocumentSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/model_test/FilesFinderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/model_test/ParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doc_parser_fxml-1.1-WORKING.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +99,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-890">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="1513">
+              <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RailroadDocument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="295" column="39" selection-start-line="295" selection-start-column="39" selection-end-line="295" selection-end-column="39" />
+              <folding>
+                <element signature="e#912#928#0" expanded="true" />
+                <element signature="e#3481#3714#0" />
+                <element signature="e#3793#4205#0" />
+                <element signature="e#4353#4566#0" />
+                <element signature="e#5078#5951#0" />
+                <element signature="e#5957#6275#0" />
+                <element signature="e#6391#7003#0" />
+                <element signature="e#7010#7229#0" />
+                <element signature="e#7404#7405#0" expanded="true" />
+                <element signature="e#7433#7434#0" expanded="true" />
+                <element signature="e#7567#7568#0" expanded="true" />
+                <element signature="e#7610#7611#0" expanded="true" />
+                <element signature="e#7413#9617#0" />
+                <element signature="e#9623#10736#0" />
+                <element signature="e#10742#12068#0" />
+                <element signature="e#12074#12422#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="properties.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/properties.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RDocEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bin/RDocEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentSaver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentSaver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="299" column="84" selection-start-line="299" selection-start-column="84" selection-end-line="299" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#saveGroupToFile#0;class#DocumentSaver#0" />
+                <element signature="method#saveGroupToFolder#0;class#DocumentSaver#0" />
+                <element signature="method#saveToFolder#0;class#DocumentSaver#0" />
+                <marker date="1574774898029" expanded="true" signature="331:419" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,40 +201,8 @@
       <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentTableOverviewController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-              <folding>
-                <element signature="method#viewDetails#0;class#DocumentTableOverviewController#0" />
-                <element signature="method#setRootController#0;class#DocumentTableOverviewController#0" />
-                <element signature="method#getPlaceHolder#0;class#DocumentTableOverviewController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9792">
-              <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,35 +210,15 @@
       <file leaf-file-name="DocumentParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="232" selection-start-line="232" selection-end-line="232" />
+            <state relative-caret-position="283">
+              <caret line="346" selection-start-line="346" selection-end-line="346" />
               <folding>
-                <element signature="method#parseDocument#0;class#DocumentParser#0" />
                 <element signature="method#parseAndAddParticipants#0;class#DocumentParser#0" />
                 <element signature="method#parseAndAddCarriageInfoToDoc#0;class#DocumentParser#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="34976860.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_resources/34976860.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="235" column="54" selection-start-line="235" selection-start-column="28" selection-end-line="235" selection-end-column="54" />
-              <folding>
-                <element signature="n#uz-rwc-doc#0;n#document-data#0;n#uz-rwc-doc#0;n#!!top" />
-                <element signature="e#19589#19670#0" />
+                <element signature="method#updateNetVeight#0;class#DocumentParser#0" />
+                <element signature="method#updateDocument#0;class#DocumentParser#0" />
+                <element signature="method#updateVagonInformation#0;class#DocumentParser#0" />
+                <element signature="method#setVagonPaymentToDoc#0;class#DocumentParser#0" />
               </folding>
             </state>
           </provider>
@@ -227,7 +263,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test_branch" />
+        <entry key="$PROJECT_DIR$" value="maven_branch" />
       </map>
     </option>
     <option name="PUSH_TAGS">
@@ -237,7 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentSaver.java" />
         <option value="$PROJECT_DIR$/src/main/java/document_parser/view/components/DocumentTableOverviewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/util/DocumentTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/model/FilesRenamer.java" />
@@ -268,26 +303,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/components/DocumentTableOverviewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yurets_y/document_parser/view/components/OrderManagerOverviewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bin/RDocEnumOrderWrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/CellStyleSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/components/OrderManagerOverviewController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/util/FilesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/style/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/model/FilesFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/FileChooseDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" />
         <option value="$PROJECT_DIR$/test_resources/34976860.xml" />
         <option value="$PROJECT_DIR$/src/test/model_test/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/RootViewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/MainApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" />
+        <option value="$PROJECT_DIR$/res/properties.properties" />
       </list>
     </option>
   </component>
@@ -365,70 +401,7 @@
             <path>
               <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
               <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="model_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DocumentParserFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DocumentParserFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="test_resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,17 +474,6 @@
       <method>
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="FilesFinderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.model_test.FilesFinderTest" />
-      <module name="DocumentParserFXML" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.model_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.yurets_y.document_parser.Main" />
@@ -661,6 +623,9 @@
     <configuration name="doc_parser_fxml-1.1-WORKING.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/doc_parser_fxml-1.1-WORKING.jar" />
     </configuration>
+    <configuration name="doc_parser_fxml-1.1.2-WORKING-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/doc_parser_fxml-1.1.2-WORKING-jar-with-dependencies.jar" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -807,18 +772,18 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainApp" />
       <item itemvalue="Application.ParserTest" />
-      <item itemvalue="Application.FilesFinderTest" />
       <item itemvalue="JAR Application.doc_parser_fxml-1.0-SNAPSHOT.jar" />
       <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING.jar" />
       <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.doc_parser_fxml-1.1.2-WORKING-jar-with-dependencies.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.doc_parser_fxml-1.1.2-WORKING-jar-with-dependencies.jar" />
         <item itemvalue="Application.ParserTest" />
         <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING-jar-with-dependencies.jar" />
         <item itemvalue="JAR Application.doc_parser_fxml-1.1-WORKING.jar" />
         <item itemvalue="JAR Application.doc_parser_fxml-1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.FilesFinderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +872,7 @@
       <workItem from="1569913807270" duration="7113000" />
       <workItem from="1569932218111" duration="751000" />
       <workItem from="1570011978698" duration="1220000" />
-      <workItem from="1574768792969" duration="1262000" />
+      <workItem from="1574768792969" duration="5998000" />
     </task>
     <task id="LOCAL-00001" summary="checkpoint 1&#10;Исправлены синтаксические ошибки">
       <created>1496834141083</created>
@@ -1018,7 +983,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322643000" />
+    <option name="totallyTimeSpent" value="327379000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1039,15 +1004,16 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.27449664" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="4" visible="true" weight="0.27449664" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.2980226" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23163842" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23163842" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32768363" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1738255" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.1380368" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24899329" />
       <window_info id="UI Designer" order="3" />
@@ -1059,7 +1025,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Changes" order="11" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Profiler" order="10" />
@@ -1215,7 +1180,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1230,14 +1195,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../../Укртранслогистика2/ОТГРУЗКА/2017_09_Сентябрь/15_09_2017/xml/34875237.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/FilesRenamer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/yurets_y/document_parser/view/RootView.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/util/MessageManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1329,14 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/model_test/FilesFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1414,13 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RDocEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Payment statistic/Payment statistic.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1459,13 +1401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="375" column="20" selection-start-line="375" selection-start-column="20" selection-end-line="375" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar!/org/jsoup/select/Elements.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3808">
@@ -1489,29 +1424,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentSaver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1566914387760" expanded="true" signature="331:419" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-          <folding>
-            <element signature="method#parseDocument#0;class#DocumentParser#0" />
-            <element signature="method#parseAndAddParticipants#0;class#DocumentParser#0" />
-            <element signature="method#parseAndAddCarriageInfoToDoc#0;class#DocumentParser#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1561,12 +1473,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        <state relative-caret-position="283">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+          <folding>
+            <element signature="method#parseAndAddParticipants#0;class#DocumentParser#0" />
+            <element signature="method#parseAndAddCarriageInfoToDoc#0;class#DocumentParser#0" />
+            <element signature="method#updateNetVeight#0;class#DocumentParser#0" />
+            <element signature="method#updateDocument#0;class#DocumentParser#0" />
+            <element signature="method#updateVagonInformation#0;class#DocumentParser#0" />
+            <element signature="method#setVagonPaymentToDoc#0;class#DocumentParser#0" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RDocEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="295" column="39" selection-start-line="295" selection-start-column="39" selection-end-line="295" selection-end-column="39" />
+          <folding>
+            <element signature="e#912#928#0" expanded="true" />
+            <element signature="e#3481#3714#0" />
+            <element signature="e#3793#4205#0" />
+            <element signature="e#4353#4566#0" />
+            <element signature="e#5078#5951#0" />
+            <element signature="e#5957#6275#0" />
+            <element signature="e#6391#7003#0" />
+            <element signature="e#7010#7229#0" />
+            <element signature="e#7404#7405#0" expanded="true" />
+            <element signature="e#7433#7434#0" expanded="true" />
+            <element signature="e#7567#7568#0" expanded="true" />
+            <element signature="e#7610#7611#0" expanded="true" />
+            <element signature="e#7413#9617#0" />
+            <element signature="e#9623#10736#0" />
+            <element signature="e#10742#12068#0" />
+            <element signature="e#12074#12422#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="113" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="113" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1575,10 +1538,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="1513">
+          <caret line="89" column="28" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/DocumentSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="299" column="84" selection-start-line="299" selection-start-column="84" selection-end-line="299" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveGroupToFile#0;class#DocumentSaver#0" />
+            <element signature="method#saveGroupToFolder#0;class#DocumentSaver#0" />
+            <element signature="method#saveToFolder#0;class#DocumentSaver#0" />
+            <marker date="1574774898029" expanded="true" signature="331:419" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/properties.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -91,6 +91,8 @@ public class DocumentParser implements Parser {
             railDoc.setTarifDistance(Integer.parseInt(tarifDistance));
         }
 
+        addStamps(jSoupDocument,railDoc);
+
         return railDoc;
     }
 
@@ -340,11 +342,15 @@ public class DocumentParser implements Parser {
     /*
      * Добавление информации про штемпели и отметки
      */
-//    public void addStamps(Elements elements, RailroadDocument railroadDocument){
-//        for(Element element : elements){
-//            element.
-//        }
-//    }
+    public void addStamps(Document jSoupDoc, RailroadDocument railroadDocument){
+        Elements stamps = jSoupDoc.getElementsByTag("SHTEMPEL");
+
+        for(Element element : stamps){
+            String stampNumb = element.attr("nom_sht");
+            String stampText = element.attr("info_sht");
+            railroadDocument.putStamp(stampNumb,stampText);
+        }
+    }
 
     public void testUpdateMetod(File file,RailroadDocument rDoc) throws IOException {
         Document document = Jsoup.parse(file, "UTF-8");
