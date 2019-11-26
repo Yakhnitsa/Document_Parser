@@ -10,138 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RDocEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RDocEnumOrderWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bin/RailroadDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesFinderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesRenamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FilesRenamerImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/model_test/FilesFinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/model_test/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/FilesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/img/magic-wang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/img/site-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/magic-wang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/wang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/model_test/FilesFinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/model_test/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/34976860.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Борщев 3 ваг ЖД 36873651 (0682).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ворожба 7 ваг ЖД 34014639 (0091).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Золотоноша I 3 ваг ЖД 42424291 (0858).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Золотоноша I 3 ваг ЖД 42430611 (0858).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 1 ваг ЖД 36868784 (0498).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 3 ваг ЖД 36864122 (0498).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Козова 7 ваг ЖД 36864031 (0498).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34012260 (0258).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34012914 (0258).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 1 ваг ЖД 34013011 (0258).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 2 ваг ЖД 34020966 (0258).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Кононовка 3 ваг ЖД 34012997 (0258).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Линовицы 2 ваг ЖД 44130961 (0858).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Линовицы 5 ваг ЖД 44130367 (0858).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 1 ваг ЖД 34022129 (6144).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 6 ваг ЖД 34012674 (6144).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Носовка 6 ваг ЖД 34022095 (0581).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Полтава-Киевская 13 ваг ЖД 44132751 (6144).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Полтава-Киевская 13 ваг качество 44132751 (6144).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 10 ваг ЖД 44129666 (0581).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 12 ваг ЖД 44130391 (0581).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Прилуки 17 ваг ЖД 44132744 (0581).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ржевусская 3 ваг ЖД 34014720 (3398).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Ржевусская 4 ваг ЖД 34014712 (0448).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Чернигов-Северный 15 ваг ЖД 34013524 (0498).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/07_03_2018 Чернигов-Северный 15 ваг ЖД 34013532 (0498).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/summ 07_03.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012674.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012914.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34012997.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013011.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013524.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34013532.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014639.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014712.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34014720.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34020966.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34022095.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/34022129.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36864031.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36864122.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36868784.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/36873651.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/42424291.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/42430611.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44129666.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130367.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130391.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44130961.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44132744.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/07_03_2018/xml/44132751.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/32868820.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/34976860.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_resources/38901146.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_9_2_sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/poi_3_14_20160307.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DocumentParserFXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DocumentParserFXML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/res/properties.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RDocEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RDocEnumOrderWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/bin/RailroadDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/CellStyleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CellStyleSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/DocumentSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DocumentSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/model/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Saver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/DocumentTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DocumentTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/FileChooseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileChooseDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/MessageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MessageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PropertiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/util/RDocEnumLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RDocEnumLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/RootView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/RootViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/RootViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentInfoOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DocumentInfoOverview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentInfoOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/DocumentInfoOverviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentTableOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DocumentTableOverview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/DocumentTableOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/DocumentTableOverviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/OrderManagerOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/components/OrderManagerOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/components/OrderManagerOverviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yurets_y/document_parser/view/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SimpleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SimpleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/model_test/ParserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/util_test/DateUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/DateUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/util_test/FileChooserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/FileChooserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/util_test/OrderLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/OrderLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/21566430.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32840357.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32929242.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32929259.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32929267.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32929275.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/32933962.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/37222270.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/44845238.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/Ичня.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resources/кабанье.xml" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,8 +75,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="-890">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -213,7 +84,7 @@
       <file leaf-file-name="RootViewController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/RootViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="1547">
               <caret line="287" column="28" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -458,7 +329,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1365" />
     <option name="height" value="730" />
   </component>
@@ -473,7 +344,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -563,13 +434,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;module" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -1036,6 +907,7 @@
       <workItem from="1569913807270" duration="7113000" />
       <workItem from="1569932218111" duration="751000" />
       <workItem from="1570011978698" duration="1220000" />
+      <workItem from="1574768792969" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="checkpoint 1&#10;Исправлены синтаксические ошибки">
       <created>1496834141083</created>
@@ -1146,7 +1018,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321381000" />
+    <option name="totallyTimeSpent" value="322643000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1158,22 +1030,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32768363" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.27449664" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.2985318" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.2980226" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23163842" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32768363" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Designer" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24563758" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1738255" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.1380368" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24899329" />
@@ -1183,7 +1056,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39548022" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32941177" />
       <window_info anchor="right" id="JetGradle" order="6" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32768363" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
@@ -1384,8 +1256,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DocumentInfoOverview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test_resources/07_03_2018/xml/34012260.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1458,12 +1330,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/OrderManagerOverview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/model_test/FilesFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1473,8 +1345,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/DocumentTableOverview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1487,12 +1359,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/RootView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1664,7 +1536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/RootViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="1547">
           <caret line="287" column="28" selection-start-line="287" selection-start-column="28" selection-end-line="287" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1705,8 +1577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="-890">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
